@@ -1,0 +1,1 @@
+Plain old sample libraries.  These are just to play with, not for any specific Disting NT Sampler that may or may not arrive in the near or distant future.
