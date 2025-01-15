@@ -1,5 +1,0 @@
-Reverb+Flange+LP
-Reverb
-Flange
-Lowpass
-Reverb plus flange plus 4-pole low pass.

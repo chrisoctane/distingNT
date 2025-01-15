@@ -1,5 +1,0 @@
-RMS limiter
-
-
-
-Approx 10dB limiting range, stereo I/O, common control (to maintain image).

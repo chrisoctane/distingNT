@@ -1,5 +1,0 @@
-Reverb/RT/D/F
-Reverb time
-Diffusion
-Decay filtering
-Reverb program that allows three controls, reverb time, diffusion and high/low frequency damping.
