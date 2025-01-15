@@ -9,3 +9,17 @@ Drag the 'three_pot' folder into 'programs' on the root of the MicroSD.  If the 
 enjoy x
 
 Chris.
+
+Key to subfolder letters:
+
+D delay
+F filter
+G guitar
+M modulation
+O other/ uncategorised
+P pitch shift
+R reverb
+T distortion
+V fv1 bass
+X portable mixer effects
+Y dynamics
