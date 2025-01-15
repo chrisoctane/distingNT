@@ -1,0 +1,6 @@
+Hall by Spin Semiconductor
+del
+krt
+kd
+(Stereo) \n
+Hall program for A16_24 program set.

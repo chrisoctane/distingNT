@@ -1,0 +1,8 @@
+pitch-shift-delay
+DlyTime
+Feedback
+Amount
+
+SpinCAD (Sum) \n
+ \n
+Stereo Sum\n

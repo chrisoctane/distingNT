@@ -1,0 +1,9 @@
+Transtortion
+Cube Input
+TX Dist. Level
+Transient Phase
+\n
+Chris Octane (Stereo) \n
+Opposing polarity drive types cancel \n
+transients which can be phase shifted. \n
+Phase is shifted on theCube-type drive via Pot3.

@@ -1,0 +1,7 @@
+tripple_echo_cascaded_stereo+chorus
+tap 0
+tap 1
+tap 2
+Graham Biswell (Sum)(Stereo) \n
+Triple tap cascaded delay with stereo \n
+outputs & chorus, fixed feedback & damping

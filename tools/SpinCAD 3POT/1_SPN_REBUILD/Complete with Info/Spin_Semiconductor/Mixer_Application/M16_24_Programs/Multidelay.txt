@@ -1,0 +1,6 @@
+Multidelay by Spin Semiconductor
+del
+taps
+rev
+(Stereo) \n
+Multitap delay+Reverb for A16_24 program set.

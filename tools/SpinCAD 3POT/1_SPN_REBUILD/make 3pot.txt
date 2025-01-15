@@ -1,0 +1,4 @@
+terminal to Linux vm
+cd ../..
+cd mnt/c/Users/cpsou/Documents/GitHub/distingNT/tools/three_pot
+make

@@ -1,0 +1,206 @@
+;Room program for A16_24 progam set.
+;variables written as byte values to:
+ 
+;reg0 = predelay (0-127)
+;reg1 = RT (0-127)
+;reg2 = damping (0-127)
+
+mem	pdel	3276
+mem	tdel	4000
+
+mem	ap1	473
+mem	ap2	536
+mem	ap3	667
+mem	ap4	791
+
+mem	tap1	452
+mem	tap2	561
+
+mem	lap1a	878
+mem	lap1b	1287
+mem	d1	1536
+mem	lap2a	968
+mem	lap2b	1367
+mem	d2	1891
+mem	lap3a	678
+mem	lap3b	1127
+mem	d3	1936
+mem	lap4a	1263
+mem	lap4b	1198
+mem	d4	1891
+
+;declare registers:
+
+equ	del	reg0
+equ	krt	reg1
+equ	kd	reg2
+equ	pout	reg3
+equ	apout	reg4
+equ	temp	reg5
+
+;read-first registers:
+
+equ	lp1	reg20
+equ	lp2	reg21
+equ	lp3	reg22
+equ	lp4	reg23
+equ	hp1	reg24
+equ	hp2	reg25
+equ	tlp	reg26
+
+;mandatory first 6 lines:
+
+or	%00000000_00000000_00000000
+wrax	reg0,0
+or	%01000000_00000000_00000000
+wrax	reg1,0
+or	%01000000_00000000_00000000
+wrax	reg2,0
+
+;program:
+
+;first clear read-first registers:
+
+skp	run,endclr
+wrax	lp1,0
+wrax	lp2,0
+wrax	lp3,0
+wrax	lp4,0
+wrax	hp1,0
+wrax	hp2,0
+wrax	tlp,0
+endclr:
+
+;calculate an address pointer for predelay:
+
+rdax	del,0.1		;limit to 1/10th of space
+wrax	addr_ptr,0
+
+;feed inputs to predelay:
+
+rdax	adcl,0.25
+rdax	adcr,0.25	;leave headroom
+wra	pdel,0		;write to predelay
+
+;read predelay output and write to tdel input:
+
+rmpa	1
+wra	tdel,1		;pass through	
+
+;now do reverb:
+
+rda	ap1#,0.5
+wrap	ap1,-0.5
+rda	ap2#,0.5
+wrap	ap2,-0.5
+rda	ap3#,0.5
+wrap	ap3,-0.5
+rda	ap4#,0.5
+wrap	ap4,-0.5
+wrax	apout,0
+
+rda	d4#,1		;read last delay output
+mulx	krt		;scale by Krt
+rdax	apout,1		;read apout
+rda	lap1a#,0.5	;do loop all passes
+wrap	lap1a,-0.5
+rda	lap1b#,-0.5
+wrap	lap1b,0.5
+rdfx	hp1,0.05	;high pass filter (fixed)
+wrhx	hp1,-0.5
+wrax	temp,-1		;write to temp (for shelving LP)
+rdfx	lp1,0.5		;do the LP as a HP
+wrhx	lp1,-1
+mulx	kd		;kd is a shelf (neg number)
+rdax	temp,1		;add filter input
+wra	d1,0		;write to next delay input
+
+rda	d1#,-1
+mulx	krt
+rdax	apout,1
+rda	lap2a#,0.5
+wrap	lap2a,-0.5
+rda	lap2b#,0.5
+wrap	lap2b,-0.5
+wrax	temp,-1
+rdfx	lp2,0.5
+wrhx	lp2,-1
+mulx	kd
+rdax	temp,1
+wra	d2,0
+
+rda	d2#,-1
+mulx	krt
+rdax	apout,1
+rda	lap3a#,0.5
+wrap	lap3a,-0.5
+rda	lap3b#,0.5
+wrap	lap3b,-0.5
+rdfx	hp2,0.05
+wrhx	hp2,-0.5
+wrax	temp,-1
+rdfx	lp3,0.5
+wrhx	lp3,-1
+mulx	kd
+rdax	temp,1
+wra	d3,0
+
+rda	d3#,-1
+mulx	krt
+rdax	apout,1
+rda	lap4a#,0.5
+wrap	lap4a,-0.5
+rda	lap4b#,0.5
+wrap	lap4b,-0.5
+wrax	temp,-1
+rdfx	lp4,0.5
+wrhx	lp4,-1
+mulx	kd
+rdax	temp,1
+wra	d4,0
+
+;do all passes within tdel, and filter tdel input:
+
+rda	tdel+100,1
+rda	tap1#,0.5
+wrap	tap1,-0.5
+wrax	temp,1
+rdfx	tlp,0.1
+wrhx	tlp,-1
+mulx	kd
+rdax	temp,1
+wra	tdel+101,0
+
+rda	tdel+1000,1
+rda	tap2#,0.5
+wrap	tap2,-0.5
+wra	tdel+1001,0
+
+;now combine initial sound with reverb out to DACs:
+
+rda	tdel+701,0.7
+rda	tdel+956,0.6
+rda	tdel+409,0.5
+rda	tdel+1323,0.4
+rda	d1,1.5
+wrax	dacl,0
+
+rda	tdel+582,0.7
+rda	tdel+956,0.6
+rda	tdel+1047,0.5
+rda	tdel+1323,0.4
+rda	d3,1.5
+wrax	dacr,0
+
+;finally, put 'air' in lap(x)b elements:
+
+skp	run,1
+wlds	sin0,20,100
+
+cho	rda,sin0,sin|reg|compc,lap1b+100
+cho	rda,sin0,sin,lap1b+101
+wra	lap1b+200,0
+
+cho	rda,sin0,cos|reg|compc,lap3b+100
+cho	rda,sin0,cos,lap3b+101
+wra	lap3b+200,0

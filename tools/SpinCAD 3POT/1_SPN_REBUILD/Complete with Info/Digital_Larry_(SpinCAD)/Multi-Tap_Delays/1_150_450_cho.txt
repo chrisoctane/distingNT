@@ -1,0 +1,9 @@
+1_150_450_cho
+Time
+Feedback
+HighPass
+
+SpinCAD (Sum) \n
+ \n
+Sum Input \n
+Sum Output \n

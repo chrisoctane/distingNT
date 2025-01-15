@@ -1,0 +1,10 @@
+dattorro-var_predelay-var_damping-4k
+predelay
+time
+damping
+Plate Reverb (Stereo) \n
+Derived from Jon Dattorro paper \n
+ \n
+pot0 = pre-delay \n
+pot1 = reverb time \n
+pot2 = hf loss in the tank \n

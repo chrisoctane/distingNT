@@ -1,0 +1,9 @@
+3_Flanger
+Rate
+Width
+FdbkTrem
+
+SpinCAD (Sum) \n
+ \n
+Sum Input \n
+Sum Output \n

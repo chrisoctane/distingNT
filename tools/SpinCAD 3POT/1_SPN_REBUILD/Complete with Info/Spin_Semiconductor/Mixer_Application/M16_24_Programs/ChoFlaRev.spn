@@ -1,0 +1,236 @@
+;Chorus/Flange+Reverb program for A16_24 progam set.
+
+;reg0 = Cho/Fla (cho if <0.5)
+;reg1 = LFO rate (0-127)
+;reg2 = reverb mix (0-127)
+
+;memory spaces:
+
+mem	chodel	1802
+mem	del	19400
+
+mem	ap1	323
+mem	ap2	445
+mem	ap3	667
+
+mem	lap1a	1123
+mem	lap1b	1634
+mem	d1	2345
+mem	lap2a	1045
+mem	lap2b	1734
+mem	d2	2187
+
+;write-first registers:
+
+equ	chofla	reg0
+equ	rate	reg1
+equ	rev	reg2
+equ	apout	reg3
+equ	adptr	reg4
+equ	f1	reg5
+equ	f2	reg6
+equ	interp	reg7
+equ	delout	reg8
+equ	flal	reg9
+equ	flar	reg10
+
+;read-first registers:
+
+equ	lp1	reg20		
+equ	lp2	reg21		
+equ	hp1	reg22		
+equ	hp2	reg23		;reverb loop filters
+equ	flahp	reg24
+equ	flaf	reg25		;flange filter 	
+
+;mandatory first 6 lines:
+
+or	%01100000_00000000_00000000
+wrax	reg0,0
+or	%01000000_00000000_00000000
+wrax	reg1,0
+or	%01000000_00000000_00000000
+wrax	reg2,0
+
+;first clear read-first registers:
+
+skp	run,endclr
+
+wrax	lp1,0
+wrax	lp2,0
+wrax	hp1,0
+wrax	hp2,0
+wrax	flahp,0
+wrax	flaf,0
+wrax	delout,0		;delayout is zeroed
+
+endclr:
+
+;write inputs to chodel, with any feedback (for flange):
+
+rdax	flaf,0.7
+rdax	adcl,0.25
+rdax	adcr,0.25
+wra	chodel,1		;carry through to reverb
+
+rda	ap1#,0.5		;input all passes
+wrap	ap1,-0.5
+rda	ap2#,0.5
+wrap	ap2,-0.5
+rda	ap3#,0.5
+wrap	ap3,-0.5
+wrax	apout,0
+
+cho	rda,sin1,sin|reg|compc,d2+2080
+cho	rda,sin1,sin,d2+2081
+sof	0.6,0
+rdax	apout,1
+rda	lap1a#,0.5
+wrap	lap1a,-0.5
+rda	lap1b#,0.5
+wrap	lap1b,-0.5
+rdfx	lp1,0.5
+wrlx	lp1,-0.3
+rdfx	hp1,0.02
+wrhx	hp1,-0.7
+wra	d1,0
+
+rda	d1#,0.6
+rdax	apout,1
+rda	lap2a#,0.5
+wrap	lap2a,-0.5
+rda	lap2b#,0.5
+wrap	lap2b,-0.5
+rdfx	lp2,0.5
+wrlx	lp2,-0.3
+rdfx	hp2,0.02
+wrhx	hp2,-0.7
+wra	d2,0
+
+;OK, the input signal is in the delay, reverb has been done, now set
+;the rate of the chorus and flange, and initialize LFOs.
+
+skp	run,endset
+
+wldr	rmp0,0,4096	;for generating flange triangle
+wlds	sin0,0,300	;for chorus
+wlds	sin1,30,100	;for reverb
+
+endset:
+
+;set LFO rate:
+
+rdax	rate,0.1
+wrax	sin0_rate,0.83
+wrax	rmp0_rate,0
+
+;now switch between chorus and flange (fla > 0.5)
+
+rdax	chofla,1
+sof	1,-0.5
+skp	gez,flange
+
+;now do chorus:
+
+;decide if we are going to put a reflection into the chorus program.
+;take the corfla variable (which we know is <0.5), and determine an
+;address pointer. If zero, then no output from delay, else,tap
+;position is determined by chofla value chofla-0.5 is in acc:
+
+sof	1,0.5		;back to chodel value
+skp	zro,notap
+sof	1.27,0		;expand to delay range
+wrax	addr_ptr,0	;set address pointer
+clr			;zero accumulator
+rmpa	0.5		;read delay
+wrax	delout,0
+
+notap:
+
+cho	rda,sin0,sin|reg|compc,chodel+1500
+cho	rda,sin0,sin,chodel+1501
+sof	1.99,0
+rdax	delout,1.2
+wrax	flal,0
+
+cho	rda,sin0,cos|reg|compc,chodel+1500
+cho	rda,sin0,cos,chodel+1501
+sof	1.99,0
+rdax	delout,1.2
+wrax	flar,0
+
+skp	zro,pend
+
+flange:
+
+clr
+
+cho	rdal,rmp0	;get ramp LFO, goes 0 to 0.5
+sof	1,-0.25
+absa
+sof	0.01,0		;scale and offset so as not to hit zero
+wrax	addr_ptr,1	;write to address pointer
+wrax	adptr,0		;and write copy
+
+rmpa	1
+wrax	f1,0		;read first sample
+
+or	%00000000_00000001_00000000	;one sample
+rdax	adptr,1		;add to first pointer
+wrax	addr_ptr,0
+
+rmpa	1
+wrax	f2,0
+
+;now derive an interpolation value:
+
+rdax	adptr,1
+and	%00000000_00000000_11111111
+sof	-2,0
+sof	-2,0
+sof	-2,0
+sof	-2,0
+sof	-2,0
+sof	-2,0
+sof	-2,0
+sof	-2,0
+sof	-2,0
+sof	-2,0
+sof	-2,0
+sof	-2,0
+sof	-2,0
+sof	-2,0
+sof	1.999,0
+wrax	interp,0
+
+;now interpolate between f1 (first sample) and f2 (second sample)
+
+rdax	f2,1
+rdax	f1,-1
+mulx	interp
+rdax	f1,1		;carry result to next op
+sof	1.99,0		;gain
+wrax	flal,1		;flanger outputs
+wrax	flar,0.5	;back again
+
+;now filter flange output for feedback:
+
+rdfx	flahp,0.02
+wrhx	flahp,-1	;high pass flange out at about 260Hz
+wrax	flaf,0		;flanger feedback
+
+;now sum flange/chorus output and reverb:
+
+pend:
+
+rda	d1,1.5
+mulx	rev
+rdax	flal,1
+wrax	dacl,0
+
+rda	d2,1.5
+mulx	rev
+rdax	flar,1
+wrax	dacr,0
+
+

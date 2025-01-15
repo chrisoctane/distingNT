@@ -1,0 +1,10 @@
+Plate Reverb
+Damping
+Time
+Level
+Audiofab (Mono Sum) \n
+Coded by mdroberts1243@gmail.com \n
+Derived from Jon Dattorro paper \n
+Pot 0: Damping \n
+Pot 1: Reverb time \n
+Pot 2: Reverb level \n

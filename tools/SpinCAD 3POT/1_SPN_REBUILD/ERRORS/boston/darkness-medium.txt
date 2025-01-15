@@ -1,0 +1,10 @@
+darkness-medium
+time
+----
+LPF
+Dual Defect 289 by Wir35 - Boston \n
+ \n
+ \n
+Pot 0: Reverb decay time \n
+Pot 1: Not connected \n
+Pot 2: Feedback low pass filter \n

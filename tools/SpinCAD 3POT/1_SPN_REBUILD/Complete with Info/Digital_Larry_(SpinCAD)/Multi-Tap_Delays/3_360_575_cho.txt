@@ -1,0 +1,9 @@
+3_360_575_cho
+Time
+Feedback
+HighPass
+
+SpinCAD (Sum) \n
+ \n
+Sum Input \n
+Sum Output \n

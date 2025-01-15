@@ -1,0 +1,7 @@
+envelope-phaser
+rate
+depth
+regen
+David Rolo (L)(Stereo) \n
+https://www.davidrolo.com/ \n
+the envelope bit is controlled via the feedback path

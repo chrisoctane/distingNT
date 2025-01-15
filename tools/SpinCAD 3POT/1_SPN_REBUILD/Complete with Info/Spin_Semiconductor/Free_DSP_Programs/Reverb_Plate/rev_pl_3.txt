@@ -1,0 +1,7 @@
+rev_pl_3 by Harmon Grold 
+VerbTime
+LF Loss
+HF Loss
+
+plate reverb (Sum)(Stereo) \n
+very tight, stereo characterized by extreme density, slight tinnyness, explosive initial sound

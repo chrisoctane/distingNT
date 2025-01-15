@@ -1,0 +1,6 @@
+DelRev by Spin Semiconductor
+td
+fbk
+rev
+(Stereo) \n
+Delay program for A16_24 program set.

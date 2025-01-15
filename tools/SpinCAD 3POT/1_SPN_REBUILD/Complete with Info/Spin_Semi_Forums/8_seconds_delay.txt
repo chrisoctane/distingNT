@@ -1,0 +1,12 @@
+8_seconds_delay
+----
+----
+----
+(Sum) \n
+This example code delays an input by
+eight seconds. It inteleaves the signal
+8 ways in a single max sized delay
+by sebxx4  
+http://www.spinsemi.com/forum/viewtopic.php?t=418
+
+

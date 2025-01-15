@@ -1,0 +1,9 @@
+bass-fv1-p3-reverb
+Time
+Filter
+Mix
+
+Patch saved from \n
+SpinCAD Designer version 1026 \n
+ \n
+Reverberation

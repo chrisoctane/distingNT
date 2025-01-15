@@ -1,0 +1,10 @@
+room-reverb-3-4-5
+DlyTime
+Feedback
+LowPass
+
+SpinCAD (Sum) \n
+Simple room reverb. \n
+Pot 0 = delay time (room size) \n
+Pot 1 = Feedback (room liveliness) \n
+Pot 2 = low pass (aka HF damping) \n

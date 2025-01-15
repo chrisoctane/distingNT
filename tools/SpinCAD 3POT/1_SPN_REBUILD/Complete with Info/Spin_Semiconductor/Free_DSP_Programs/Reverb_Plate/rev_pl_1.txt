@@ -1,0 +1,9 @@
+rev_pl_1 by Harmon Grold 
+VerbTime
+LF Loss
+HF Loss
+
+plate reverb (Sum)(Stereo) \n
+lush (large), stereo characterized \n
+by very high density, explosive \n
+initial sound, large.

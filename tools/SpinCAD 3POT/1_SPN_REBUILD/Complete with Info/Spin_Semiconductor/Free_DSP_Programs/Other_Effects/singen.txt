@@ -1,0 +1,6 @@
+singen by Keith Barr
+Coarse
+Fine
+Amp
+(Sum) \n
+Sine Wave Generator

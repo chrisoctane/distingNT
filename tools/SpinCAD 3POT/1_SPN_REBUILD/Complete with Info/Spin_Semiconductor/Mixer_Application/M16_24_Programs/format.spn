@@ -1,0 +1,52 @@
+;format for multiple program systems,
+;coordinated by an 8051
+
+;The first 6 instructions will exchange information with the host.
+
+;The first instruction will always be an OR operation, which
+;carries variable 1 in its MB byte and program number in its LS byte
+;this is followed by a wrax to REG0. The program number is read on
+;power-up to determine the last (power-down) condition.
+
+;The 3rd instruction is an OR that carries variable 2 in its MS byte
+;and is subsequently written to REG1. 
+
+;The 5th instruction is an OR that carries variable 3 in its MS byte
+;and is subsequently written to REG2. 
+
+;Key memory byte locations and meanings:
+
+;Byte 0: variable 1
+;Byte 2: program #, with mute status as MSB
+;Byte 8: variable 2
+;Byte 16: variable 3
+
+;the first 6 lines of code should always read:
+
+OR	%00000000_00000000_00000000
+wrax	reg0,0
+OR	%00000000_00000000_00000000
+wrax	reg1,0
+OR	%00000000_00000000_00000000
+wrax	reg2,0
+
+;in operation, the active program is written to program 0
+;of the EEPROM space.
+;muting is accomplished by switching the FV-1 to program 1,
+;which is written with NOPs. 
+
+;The 8 programs and their respective variables follow.
+;all variables are 8 bit 2's comp, either 0 to 7f or ff to 80
+
+Program name		variable1 	variable2	variable3
+
+Cathedral		predelay	rt		damp(-)
+Hall			predelay	rt		damp(-)
+Room			predelay	rt		damp(-)
+Plate			predelay	rt		damp(-)
+Gate			predelay	rt		damp(-)
+DelRev			delay		repeat		reverb
+ChoFlaRev		cho/fla(sel)	rate		reverb
+Multidelay		delay		taps(4 sets)	reverb
+
+ChoFlaRev first variable is Flange if >0.5, else chorus.

@@ -1,0 +1,9 @@
+battling_lfos by Keith Barr
+Sine1
+Sine2
+Sine3
+
+Battling LFOs (Stere) \n
+multiple interactive sine generators
+just let it run!
+

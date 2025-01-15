@@ -1,0 +1,10 @@
+faux-phaser-2
+LFO 
+time
+feedback
+(L)(Mono) \n
+http://www.spinsemi.com/forum/viewtopic \n
+.php?f=4&t=490 \n
+Pot0 - LFO speed/width \n
+Pot1 - delay time \n
+Pot2 = delay level/feedback

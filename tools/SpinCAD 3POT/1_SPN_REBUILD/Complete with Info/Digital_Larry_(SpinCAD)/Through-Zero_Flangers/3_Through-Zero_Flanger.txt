@@ -1,0 +1,10 @@
+3_Through-Zero_Flanger
+DlyTime
+Feedback
+----
+
+SpinCAD (Stereo) \n
+ \n
+Sum Input \n
+L Sum Out R Inverted Tap Out \n
+

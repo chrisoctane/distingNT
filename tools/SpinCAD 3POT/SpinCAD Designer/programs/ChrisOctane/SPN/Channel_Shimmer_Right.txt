@@ -1,0 +1,6 @@
+Channel Shimmer Right
+Shimmer
+Distance
+Feedback
+Chris Octane (R)(Mono) \n
+Use this along with the Left channel version for a stereo shimmer that no other FV-1 unit can do - because each channel consumes the entire chip's resources. 

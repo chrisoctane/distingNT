@@ -1,0 +1,6 @@
+simp_limiter by Keith Barr
+----
+----
+----
+(Stereo) \n
+simple limiter, -12dB threshold, peak detecting

@@ -1,0 +1,10 @@
+dattorro_var_pitch-ip-4k
+freq
+time
+damp
+Plate Reverb (Stereo) \n
+Derived from Jon Dattorro paper \n
+ \n
+pot0 = freq shift \n
+pot1 = reverb time \n
+pot2 = hf loss in the tank \n

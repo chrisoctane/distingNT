@@ -1,0 +1,9 @@
+bass-fv1-p1-phaser
+Speed
+Depth
+Feedback
+
+Patch saved from \n
+SpinCAD Designer version 1026 \n
+ \n
+Phaser

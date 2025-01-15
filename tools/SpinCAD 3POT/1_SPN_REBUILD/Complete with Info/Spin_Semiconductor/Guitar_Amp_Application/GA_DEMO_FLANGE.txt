@@ -1,0 +1,8 @@
+GA_DEMO_FLANGE
+Reverb level
+Flange rate
+Effect level w/ feedback
+(Sum)
+
+
+

@@ -1,0 +1,8 @@
+New Distortion 1
+Gain
+Tone
+Level
+Audiofab (Mono Sum) \n
+ \n 
+Basic patch with limited tone shaping -- uses LPFs in distortion stack to reduce muddiness. Input LPF is for controlling aliasing.
+

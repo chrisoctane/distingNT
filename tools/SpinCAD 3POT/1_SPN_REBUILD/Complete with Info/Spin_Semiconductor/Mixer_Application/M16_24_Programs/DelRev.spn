@@ -1,0 +1,137 @@
+;delay program for A16_24 progam set.
+;variables written as byte values to:
+ 
+;reg0 = delay (0-127)
+;reg1 = repeat (0-127)
+;reg2 = reverb (0-127)
+
+mem	del	22670
+
+mem	ap1	223
+mem	ap2	313
+mem	ap3	576
+mem	ap4	789
+
+mem	lap1a	858
+mem	lap1b	1230
+mem	d1	1893
+mem	lap2a	978
+mem	lap2b	1130
+mem	d2	2093
+
+;declare registers:
+
+equ	td	reg0
+equ	fbk	reg1
+equ	rev	reg2
+equ	apout	reg3
+
+;read-first registers:
+
+equ	lp1	reg20
+equ	lp2	reg21
+equ	hp1	reg22
+equ	hp2	reg23
+equ	flp	reg24
+
+;mandatory first 6 lines:
+
+or	%00100000_00000000_00000000
+wrax	reg0,0
+or	%01000000_00000000_00000000
+wrax	reg1,0
+or	%01110000_00000000_00000000
+wrax	reg2,0
+
+;clear read-first registers:
+
+skp	run,endclr
+
+wrax	lp1,0
+wrax	lp2,0
+wrax	hp1,0
+wrax	hp2,0
+wrax	flp,0
+
+endclr:
+
+;establish read point for delay output:
+
+rdax	reg0,0.69	;16384, 1/2 second
+wrax	addr_ptr,0
+
+;read inputs and put into delay with feedback:
+
+rdax	flp,1		;read delay out LPF
+mulx	fbk		;multiply by feedback value
+rdax	adcl,0.25	;read inputs
+rdax	adcr,0.25
+wra	del,0		;write to delay
+
+;read delay at pointer and filter output:
+
+rmpa	1		;read delay
+rdfx	flp,0.4		;-3dB at about 2KHz
+wrax	flp,0		;write to flp, (infinite shelf)
+
+;now do reverb, with delay input as the signal source:
+
+rda	del,1		;read delay input
+rda	ap1#,0.5	;do aps
+wrap	ap1,-0.5
+rda	ap2#,0.5
+wrap	ap2,-0.5
+rda	ap3#,0.5
+wrap	ap3,-0.5
+rda	ap4#,0.5
+wrap	ap4,-0.5
+wrax	apout,0		;write to apout
+
+rda	d2#,0.7		;read loop delay
+rdax	apout,1
+rda	lap1a#,0.5	;do loop all passes
+wrap	lap1a,-0.5
+rda	lap1b#,0.6
+wrap	lap1b,-0.6
+rdfx	lp1,0.5		;do LPF 
+wrlx	lp1,-0.5
+rdfx	hp1,0.02	;do HPF
+wrhx	hp1,-0.5
+wra	d1,0		;write next delay
+
+rda	d1#,0.7
+rdax	apout,1
+rda	lap2a#,0.5
+wrap	lap2a,-0.5
+rda	lap2b#,0.6
+wrap	lap2b,-0.6
+rdfx	lp2,0.5
+wrlx	lp2,-0.5
+rdfx	hp2,0.02
+wrhx	hp2,-0.5
+wra	d2,0
+
+;now combine delay and reverb:
+
+rda	d1,1.99		;read reverb
+mulx	rev		;scale by reverb control
+rdax	flp,1.99	;read delay out (filtered)
+wrax	dacl,0		;write dac
+
+rda	d2,1.99		
+mulx	rev		
+rdax	flp,1.99		
+wrax	dacr,0		
+
+;put 'air' in reverb:
+
+skp	run,1
+wlds	sin0,22,100
+
+cho	rda,sin0,sin|reg|compc,lap1b+100
+cho	rda,sin0,sin,lap1b+101
+wra	lap1b+200,0
+
+cho	rda,sin0,cos|reg|compc,lap2b+100
+cho	rda,sin0,cos,lap2b+101
+wra	lap2b+200,0

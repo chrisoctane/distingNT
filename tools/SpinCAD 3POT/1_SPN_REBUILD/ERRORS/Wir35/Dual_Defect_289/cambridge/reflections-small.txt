@@ -1,0 +1,10 @@
+reflections-small
+decay
+pre L
+pre R
+Dual Defect 289 by Wir35 - Cambridge \n
+ \n
+ \n
+Pot 0: Decay time of scatter and taps \n
+Pot 1: Pre-delay time for left side \n
+Pot 2: Pre-delay time for right side \n

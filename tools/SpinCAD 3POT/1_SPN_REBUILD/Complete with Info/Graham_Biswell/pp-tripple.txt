@@ -1,0 +1,10 @@
+pp-tripple
+centre time
+left relative
+time
+Graham Biswell (Stereo) \n
+Ping pong delay with 3 taps - left, \n
+right, centre, mixed w L&R taps \n
+pot0 center tap time \n
+pot1 delay time of Lrelative to R \n
+pot2 adjusts delay time \n

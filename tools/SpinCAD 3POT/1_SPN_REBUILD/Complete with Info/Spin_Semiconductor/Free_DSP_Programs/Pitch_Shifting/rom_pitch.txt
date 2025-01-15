@@ -1,0 +1,8 @@
+rom_pitch by Frank Thomson
+Pitch
+----
+----
+(Stereo) \n
+PITCH TRANSPOSER, STEREO
+Pitch shifting program from
+the FV-1 internal ROM

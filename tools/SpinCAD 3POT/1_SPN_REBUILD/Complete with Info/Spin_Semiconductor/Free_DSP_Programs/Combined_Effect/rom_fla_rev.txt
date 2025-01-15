@@ -1,0 +1,10 @@
+rom_fla_rev by Keith Barr
+VerbMix
+FlngRat
+FlngMix
+development program: (Sum) \n
+Guitar reverb/flange \n
+ \n
+pot0 = reverb mix \n
+pot1 = flange rate \n
+pot2 = flange mix \n

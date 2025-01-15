@@ -1,0 +1,7 @@
+GA_DEMO_WAH
+Reverb level (post wah)
+Sensitivity
+Effect level / filter Q
+(Sum)
+
+

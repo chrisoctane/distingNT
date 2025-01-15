@@ -1,0 +1,10 @@
+dance_ir_h_l by Dave Spinkler
+Vrb2Infinity
+flange
+4pLPF
+disco mixer program (Stereo) \n
+Reverb plus flange plus 4- pole \n
+low pass \n
+pot0 = reverb to infinity \n
+pot1 = flange; zero delay at CC \n
+pot2 = low pass filter (4 pole) \n

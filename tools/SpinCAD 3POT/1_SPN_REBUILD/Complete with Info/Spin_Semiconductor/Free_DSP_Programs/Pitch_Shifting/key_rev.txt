@@ -1,0 +1,6 @@
+key_rev by Keith Barr 
+Key
+VerbAmount
+VerbTime
+Key change and reverb (L_InOut)(R_InOut) \n
+Music (mono) in on left channel (perhaps from vocal remover). Microphone in on right channel. Outputs are stereo reverb and synthesized stereo music.

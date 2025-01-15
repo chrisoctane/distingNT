@@ -1,0 +1,8 @@
+GA_DEMO_VIBRATO
+Reverb level
+Vibrato rate
+Vibrato width
+(Sum)
+
+
+

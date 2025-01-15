@@ -1,0 +1,9 @@
+bass-fv1-p0-flanger
+Speed
+Depth
+Feedback
+
+Patch saved from \n
+SpinCAD Designer version 1026 \n
+ \n
+Flanger

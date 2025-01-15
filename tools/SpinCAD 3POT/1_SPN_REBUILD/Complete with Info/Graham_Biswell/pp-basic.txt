@@ -1,0 +1,10 @@
+pp-basic
+time
+feedback
+damping
+Graham Biswell (Sum) \n
+Basic ping pong delay with adjustable \n
+eedback & damping (damp has hp & lp) \n
+pot0 adjusts ping delay time \n
+pot1 adjusts feedback coefficient \n
+pot2 adjusts damping \n

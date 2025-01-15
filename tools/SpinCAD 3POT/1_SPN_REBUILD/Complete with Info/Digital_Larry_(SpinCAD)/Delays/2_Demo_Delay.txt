@@ -1,0 +1,10 @@
+2_Demo_Delay
+DlyTime
+Amount
+Feedback
+
+SpinCAD (L)(Sum) \n
+ \n
+Demo Delays \n
+ \n
+Mono In \n

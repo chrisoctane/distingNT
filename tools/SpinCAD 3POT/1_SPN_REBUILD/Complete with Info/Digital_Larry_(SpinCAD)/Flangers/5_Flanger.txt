@@ -1,0 +1,9 @@
+5_Flanger
+Rate
+Width
+Feedback
+
+SpinCAD (Stereo) \n
+ \n
+Sum Input \n
+L Sum Output R Tap Output \n

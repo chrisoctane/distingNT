@@ -1,0 +1,8 @@
+bass-fv1-p7-harm-trem-delay
+Delay
+Speed + Delay/Tremolo Mix
+Mix
+
+Patch saved from  \n
+SpinCAD Designer version 1026 \n
+Harmonic tremolo + Delay

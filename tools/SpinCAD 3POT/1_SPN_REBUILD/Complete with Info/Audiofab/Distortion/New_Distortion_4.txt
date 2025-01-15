@@ -1,0 +1,7 @@
+New Distortion 4
+Gain
+Tone
+Level
+Audiofab (Mono Sum) \n
+ \n
+Increase input HPF cutoff frequency to 600 Hz -- moving into Tube Screamer territory.

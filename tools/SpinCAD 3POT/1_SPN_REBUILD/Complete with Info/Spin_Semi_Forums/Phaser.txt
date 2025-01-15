@@ -1,0 +1,12 @@
+Phaser
+rate
+width
+stages
+(Sum) \n
+spinsemi.com/forum/viewtopic \n
+.php?f=4&t=707 \n
+Pot0 = Phase rate (manual if CCW) \n
+Pot1 = Sweep width (or manual)  \n
+Pot2 = Num of Stages (4,6,8,10)
+
+

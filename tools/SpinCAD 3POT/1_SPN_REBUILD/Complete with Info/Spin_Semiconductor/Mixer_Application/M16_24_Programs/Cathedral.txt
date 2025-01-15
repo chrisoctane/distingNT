@@ -1,0 +1,6 @@
+Cathedral by Spin Semiconductor
+predelay
+RT
+damping
+(Stereo) \n
+Cathedral program for A16_24 program set.

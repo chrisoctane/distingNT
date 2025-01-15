@@ -1,0 +1,10 @@
+rom_chor_rev by Keith Barr
+VerbMix
+ChorRate
+ChorMix
+development program: (Sum) \n
+Guitar reverb/chorus \n
+ \n
+pot0 = reverb mix \n
+pot1 = chorus rate \n
+pot2 = chorus mix/width \n

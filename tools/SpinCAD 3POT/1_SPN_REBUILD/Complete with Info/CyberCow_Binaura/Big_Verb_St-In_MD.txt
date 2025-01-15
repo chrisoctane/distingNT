@@ -1,0 +1,10 @@
+Big_Verb_St-In_MD
+Time
+Predelay
+Filter
+Cybercow (Stereo) \n
+Large Room Reverb \n
+ \n
+Pot 0: Reverb Time \n
+Pot 1: Predelay Time \n
+Pot 2: Filter \n

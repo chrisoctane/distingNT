@@ -1,0 +1,9 @@
+MadBean_Starfield
+Delay
+Feedback
+LFO
+
+SpinCAD (Sum) \n
+ \n
+Sum Input \n
+Sum Output \n

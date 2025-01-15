@@ -1,0 +1,9 @@
+pitch-transpose-stereo
+pitch 1
+pitch 2
+----
+(Stereo) \n
+http://www.spinsemi.com/forum/viewtopic.php?t=235 \n
+PITCH TRANSPOSER, STEREO
+
+

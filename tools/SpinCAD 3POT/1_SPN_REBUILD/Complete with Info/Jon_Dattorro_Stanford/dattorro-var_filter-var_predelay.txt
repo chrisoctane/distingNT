@@ -1,0 +1,10 @@
+dattorro-var_filter-var_predelay
+predelay
+time
+input LPF
+Plate Reverb (Stereo) \n
+Derived from Jon Dattorro paper \n
+ \n
+pot0 = pre-delay \n
+pot1 = reverb time \n
+pot2 = lpf frequency on input

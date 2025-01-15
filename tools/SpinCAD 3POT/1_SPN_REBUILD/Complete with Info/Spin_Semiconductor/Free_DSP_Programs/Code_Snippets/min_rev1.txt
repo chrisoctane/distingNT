@@ -1,0 +1,10 @@
+min_rev1.spn by Keith Barr
+----
+----
+----
+(Sum)(Stereo) sample reverb program for FV-1 
+minimize number of delays and ops. 
+4 aps driving 2 AP-delay loops
+drive both loop elements, take output 
+from eachno pot controls 
+output is full reverb, not mixed

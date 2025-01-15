@@ -1,0 +1,10 @@
+8 Octave up-down with Flanger
+Speed
+Oct Up
+Oct Dn
+Audiofab (Mono Sum) \n
+ \n
+Patch 8: Octave up-down with Flanger \n
+Pot 0: Flanger Speed \n
+Pot 1: Octave up level \n
+Pot 2: Octave down level

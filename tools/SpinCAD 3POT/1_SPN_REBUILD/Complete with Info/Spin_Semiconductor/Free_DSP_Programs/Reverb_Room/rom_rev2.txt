@@ -1,0 +1,6 @@
+rom_rev2 by Keith Barr 
+VerbTime
+LFResponse
+HFResponse
+(Sum)(Stereo) \n
+Reverb 2 program from the FV-1 internal ROM  moderate sized reverb, stereo in and out for mixers

@@ -1,0 +1,5 @@
+3K_V1_1_Room by Spin Semiconductor
+Pre-delay
+Decay
+Damping
+Natural room reverb. (Sum)(Stereo)

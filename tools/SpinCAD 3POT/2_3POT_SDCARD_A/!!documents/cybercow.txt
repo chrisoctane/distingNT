@@ -1,0 +1,78 @@
+
+Cybercow
+
+BINAURA STEREO BANK 01
+
+...My first release of stereo FV-1 patches. Some were created from scratching a couple were modified from existing patches found on the web.
+
+There are four files. All are zipped. The 1st one contains the single [8] SpinCAD Designer files, the 2nd has the single [8] SpinASM files), next is the SpinCAD Designer bank dump, and the last one is a hex dump of the entire SpinCAD Designer bank. Below are the names & descriptions of each patch as they are in the bank (set of 8 patches).
+
+
+FILE NAMES & DESCRIPTIONS:
+0) PD_07_Long_Delay_Chorus_02.spcd/spn
+1) Dual_Stereo_Delay_St-In_MD.spcd/spn
+2) HarmTrem_Stereo_5_St-In_MD.spcd/spn
+3) Hyper_Flanger_St-In_MD.spcd/spn
+4) Echo_Chorus_St-In_MD.spcd/spn
+5) My_Shimmer_03.spcd/spn
+6) Big_Verb_St-In_MD.spcd/spn
+7) 4-Phase-Filter_Wah_St-In_MD_02.spcd/spn
+
+
+0):
+PD_07_Long_Delay_Chorus_02.spcd
+Stereo Long Delay with Chorus
+Pot 0: Delay time, turns chorus LFO rate down as it goes past 50%, flanger LFO rate up from 0 - 50%
+Pot 1: Feedback level
+Pot 2: Chorus level
+
+**BROKEN** 1): 
+Dual_Stereo_Delay_St-In_MD.spcd
+Stereo Delay with Left & Right Feedback control
+Pot 0: Delay Time
+Pot 1: Left Feedback
+Pot 2: Right Feedback
+
+2):
+HarmTrem_Stereo_5_St-In_MD.spcd
+Stereo Harmonic Tremolo
+Pot 0: Speed
+Pot 1: Width
+Pot 2: N/A
+
+3):
+Hyper_Flanger_St-In_MD.spcd
+Flanger
+Pot 0: LFO Rate / Delay Time
+Pot 1: Width
+Pot 2: Feedback
+
+4):
+Echo_Chorus_St-In_MD.spcd
+Short stereo delay with chorus
+Pot 0: Short Delay Time
+Pot 1: Feedback
+Pot 2: Chorus Width Left / Chorus Depth Right
+
+5):
+My_Shimmer_03.spcd
+Shimmer Reverb
+Pot 0: DelayTime (very short delay ~50ms)
+Pot 1: Reverb Time
+Pot 2: Shimmer
+
+6):
+Big_Verb_St-In_MD.spcd
+Large Room Reverb
+Pot 0: Reverb Time
+Pot 1: Predelay Time
+Pot 2: Filter
+
+7):
+4-Phase-Filter_Wah_St-In_MD_02.spcd
+Stereo AutoWah
+Pot 0: Auto Wah Filter
+Pot 1: LFO Speed
+Pot 2: LFO Depth
+
+Any and all feedback is welcome.

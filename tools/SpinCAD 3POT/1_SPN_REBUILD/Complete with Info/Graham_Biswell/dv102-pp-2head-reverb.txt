@@ -1,0 +1,10 @@
+dv102-pp-2head-reverb
+time
+feedback
+level
+Graham Biswell (Stereo) \n
+Dual head tape echo \n + spring reverb \n
+with added ping pong \n
+pot 0 echo delay time \n
+pot 1 echo feedback \n
+pot 2 reverb level \n

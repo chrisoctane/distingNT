@@ -1,0 +1,9 @@
+bass-fv1-p4-autowah
+Amount
+Resonance
+Frequency
+
+Patch saved from \n
+SpinCAD Designer version 1026 \n
+ \n
+Autowah

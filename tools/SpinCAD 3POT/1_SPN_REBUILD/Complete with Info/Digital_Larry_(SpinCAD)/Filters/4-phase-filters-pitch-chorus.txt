@@ -1,0 +1,9 @@
+4-phase-filters-pitch-chorus
+Freq
+Speed
+Width
+
+SpinCAD (Sum) \n
+ \n
+Sum Input \n
+Sum Output \n

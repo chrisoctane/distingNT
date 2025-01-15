@@ -1,0 +1,7 @@
+rms_soft_knee by Keith Barr
+----
+----
+----
+(Stereo) \n
+rms limiter, approx 10dB limiting range,
+soft knee, variable comp ratio.

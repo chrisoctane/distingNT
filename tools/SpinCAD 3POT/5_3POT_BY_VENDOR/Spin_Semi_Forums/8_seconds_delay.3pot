@@ -1,0 +1,28 @@
+{
+"kind": "disting NT 3pot",
+"version": 1,
+"name": "8_seconds_delay",
+"pot1": "----",
+"pot2": "----",
+"pot3": "----",
+"description": "(Sum) \n This example code delays an input by eight seconds. It inteleaves the signal 8 ways in a single max sized delay by sebxx4 http://www.spinsemi.com/forum/viewtopic.php?t=418  ",
+"code_size": 163,
+"build_date": "2024-12-26 10:22:52.765381+00:00",
+"toolchain": "arm-none-eabi-c++ (15:13.2.rel1-2) 13.2.1 20231009",
+"abi_version": "2",
+"code":[
+":10000000DFED256AD0ED197A90ED1A7A77EEA67AAF"
+,":10001000C3680268C3F30E0103F57F4377EE877A66"
+,":1000200090ED267AFF3302EB81019FED1C6A97EE7B"
+,":10003000A67AC3F30E03C0ED257A02EB8302B4EE79"
+,":10004000E67AF1EE10FA58BFC0ED277A90ED277AE4"
+,":1000500081ED007AD2ED007AE7EE267A90ED267AED"
+,":1000600037EE067A9FED0E6A80ED267A37EE467AF5"
+,":10007000C0ED277AB5EEC07AF1EE10FA5CBFC0EDA4"
+,":10008000297A67EEA67AD0F8A43058BFC0ED267A58"
+,":10009000C3660367704700BF00000000CDCCCC3DB5"
+,":0400A000CDCC4C3F38"
+,":00000001FF"
+
+]
+}

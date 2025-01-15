@@ -1,0 +1,10 @@
+pp-basic-wonky
+time
+feedback
+damping
+Graham Biswell (Stereo) \n
+basic pingpong with adjustable feedback \n
+& damping with hpf & lpf \n
+pot0 adjusts ping delay time \n
+pot1 adjusts feedback coefficient \n
+pot2 adjusts damping \n

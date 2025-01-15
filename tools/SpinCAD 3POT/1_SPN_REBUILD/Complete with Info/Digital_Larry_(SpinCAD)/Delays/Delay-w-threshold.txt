@@ -1,0 +1,8 @@
+Delay-w-threshold
+DlyTime
+Feedback
+Threshold
+
+SpinCAD (Sum) \n
+ \n
+Stereo In is summed 

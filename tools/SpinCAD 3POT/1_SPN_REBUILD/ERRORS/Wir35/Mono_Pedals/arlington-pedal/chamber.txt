@@ -1,0 +1,8 @@
+chamber
+decay
+density
+size
+Chamber-style reverb \n
+Pot 0: Reverb decay time, short - long \n
+Pot 1: Density amount, low to high \n
+Pot 2: Room size, small to large \n

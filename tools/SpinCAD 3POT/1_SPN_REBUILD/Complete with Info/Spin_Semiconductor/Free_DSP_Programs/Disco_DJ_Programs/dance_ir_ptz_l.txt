@@ -1,0 +1,10 @@
+dance_ir_ptz_l by Dave Spinkler
+infiniteVerb
+PitchTo0
+4pLPF
+Disco mixer program (Stereo) \n
+Reverb plus pitch plus 4-pole low-pass \n
+ \n
+pot0 = infinite reverb \n
+pot1 = pitch to zero \n
+pot2 = 4 pole low pass filter

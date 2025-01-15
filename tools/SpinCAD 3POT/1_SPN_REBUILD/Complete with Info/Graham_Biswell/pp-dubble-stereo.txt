@@ -1,0 +1,10 @@
+pp-dubble-stereo
+time
+feedback
+damping
+Graham Biswell (Stereo) \n
+Simple stereo ping \n
+pong delay with feedback & damping. \n
+pot0 adjusts delay time \n
+pot1 adjusts feedback \n
+pot2 adjusts damping \n

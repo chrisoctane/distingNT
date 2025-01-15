@@ -1,0 +1,6 @@
+rom_rev1 by Keith Barr 
+VerbTime
+LFResponse
+HFResponse
+(Sum)(Stereo) \n
+Reverb 1 program from the FV-1 internal ROM  large reverb, stereo in and out for mixers, uneven (for vocals)

@@ -1,0 +1,10 @@
+4 Octave up-down with Chorus
+Speed
+Oct Up
+Oct Dn
+Audiofab (Mono Sum) \n
+ \n
+Patch 4: Octave up-down with Chorus \n
+Pot 0: Chorus Speed \n
+Pot 1: Octave up level \n
+Pot 2: Octave down level \n

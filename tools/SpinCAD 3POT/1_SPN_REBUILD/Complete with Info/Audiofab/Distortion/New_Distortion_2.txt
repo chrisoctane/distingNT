@@ -1,0 +1,7 @@
+New Distortion 2
+Gain
+Tone
+Level
+Audiofab (Mono Sum) \n
+ \n 
+Add input HPF to reduce low end muddiness.

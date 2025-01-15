@@ -1,0 +1,8 @@
+oil-can-delay
+DlyTime
+LFOWidth
+Feedback
+
+SpinCAD (Sum) \n
+ \n
+Stereo Sum

@@ -1,0 +1,9 @@
+slicer-tremolo
+Rate
+Slicer
+LFOWidth
+
+SpinCAD (Sum) \n
+ \n
+Sum Input \n
+Sum Output \n

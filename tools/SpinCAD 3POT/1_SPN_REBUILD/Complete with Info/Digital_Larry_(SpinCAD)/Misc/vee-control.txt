@@ -1,0 +1,9 @@
+vee-control
+Rate
+Width
+ChorFlange
+
+SpinCAD (Sum) \n
+ \n
+Sum Input \n
+Sum Output \n

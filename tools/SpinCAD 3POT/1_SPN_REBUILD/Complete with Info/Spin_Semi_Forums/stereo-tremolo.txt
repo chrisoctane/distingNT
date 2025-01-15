@@ -1,0 +1,8 @@
+stereo-tremolo
+Trem L
+Trem R
+----
+(Stereo)
+
+
+

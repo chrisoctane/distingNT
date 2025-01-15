@@ -1,0 +1,6 @@
+rms_lim_exp by Keith Barr
+----
+----
+----
+(Stereo) \n
+Simple RMS limiter/expander

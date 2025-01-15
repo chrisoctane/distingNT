@@ -1,0 +1,11 @@
+Spring Reverb
+Tone
+Time
+Level
+Audiofab (Mono Sum) \n
+Designed and coded by Don Stavely 2016 \n
+ \n
+Pot 0: Tone \n
+Pot 1: Reverb time \n
+Pot 2: Reverb level \n
+

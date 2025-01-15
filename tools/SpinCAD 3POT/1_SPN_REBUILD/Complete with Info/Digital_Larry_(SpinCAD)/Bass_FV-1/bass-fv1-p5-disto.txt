@@ -1,0 +1,9 @@
+bass-fv1-p5-disto
+Gain
+Tone
+Mix
+
+Patch saved from \n
+SpinCAD Designer version 1026 \n
+ \n
+Distortion

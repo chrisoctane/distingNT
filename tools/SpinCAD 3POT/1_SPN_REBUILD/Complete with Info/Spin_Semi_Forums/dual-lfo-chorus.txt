@@ -1,0 +1,10 @@
+dual-lfo-chorus
+rate sin0
+rate sin1
+depth
+
+Chorus
+ \n
+Pot0=Chorus rate sin0 \n
+Pot1=Chorus rate sin1 \n
+Pot2=Chorus depth (sin1 is lower than sin0) \n

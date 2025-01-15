@@ -1,0 +1,6 @@
+tripple_echo_cascaded
+tap 0
+tap 1
+tap 2
+Graham Biswell (Sum) \n
+Triple tap cascaded delay with fixed feedback & damping.

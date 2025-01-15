@@ -1,0 +1,5 @@
+3K_V1_6_CHOR-REV by Spin Semiconductor
+Pre-delay
+Decay
+Damping
+Chorus reverb. (Sum)(Stereo)

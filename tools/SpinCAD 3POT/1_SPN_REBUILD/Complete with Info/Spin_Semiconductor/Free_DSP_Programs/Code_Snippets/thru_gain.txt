@@ -1,0 +1,9 @@
+thru_gain by Keith Barr
+gainloss
+----
+----
+(Stereo) \n
+program for gain and loss (pot0) \n
+ \n
++/- 20dB \n
+adc to dac \n

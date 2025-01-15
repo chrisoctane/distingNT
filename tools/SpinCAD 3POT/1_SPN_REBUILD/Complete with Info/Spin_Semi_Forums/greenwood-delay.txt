@@ -1,0 +1,10 @@
+greenwood-delay
+rate
+time
+random
+(L)(Mono) \n
+http://www.spinsemi.com/forum \n
+/viewtopic.php?t=290 \n
+pot 0 LFO speed \n
+pot 1 max delay time \n
+pot 2 randomness of delay time.

@@ -1,0 +1,7 @@
+New Distortion 5
+Gain
+Tone
+Level
+Audiofab (Mono Sum) \n
+ \n
+Adds 1.2 kHz peaking filter to give a mid range boost.

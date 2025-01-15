@@ -1,0 +1,8 @@
+GA_DEMO_ECHO_RPT
+Reverb level
+Delay
+Echo level
+(Sum)
+
+
+

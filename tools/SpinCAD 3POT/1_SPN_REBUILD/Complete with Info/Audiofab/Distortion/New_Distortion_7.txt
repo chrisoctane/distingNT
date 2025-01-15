@@ -1,0 +1,7 @@
+New Distortion 7
+Gain
+Tone
+Level
+Audiofab (Mono Sum) \n
+ \n
+Add an additional distortion stage (with pre-LPF to reduce fizz).

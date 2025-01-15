@@ -1,0 +1,10 @@
+Hyper_Flanger_St-In_MD
+Rate/Time
+Width
+Feedback
+Cybercow (Stereo) \n
+Flanger \n
+ \n
+Pot 0: LFO Rate / Delay Time \n
+Pot 1: Width \n
+Pot 2: Feedback \n

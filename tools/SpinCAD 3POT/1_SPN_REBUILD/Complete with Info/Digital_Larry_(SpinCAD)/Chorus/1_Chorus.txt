@@ -1,0 +1,9 @@
+1_Chorus
+rate
+width
+----
+
+SpinCAD (L)(L) \n
+ \n
+L Mono Input	R No Input \n
+L Chorus Out	R Dry Out \n

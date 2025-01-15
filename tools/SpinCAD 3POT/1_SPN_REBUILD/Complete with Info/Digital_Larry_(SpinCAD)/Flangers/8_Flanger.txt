@@ -1,0 +1,9 @@
+8_Flanger
+Rate
+Width
+Feedback
+
+SpinCAD (Stereo) \n
+ \n
+L Sum Input \n
+L Flanger Out R Dry Output \n

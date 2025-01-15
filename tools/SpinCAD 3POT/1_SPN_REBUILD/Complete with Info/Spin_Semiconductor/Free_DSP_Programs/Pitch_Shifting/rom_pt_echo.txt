@@ -1,0 +1,10 @@
+rom_pt_echo by Frank Thomson
+PitchL
+DelayTime
+EchoMixR
+
+Pitch-echo program fromthe FV-1 (Stereo) \n
+ \n
+pot0 adjusts pitch in left channel \n
+pot1 adjusts echo delay time \n
+pot2 adjusts echo mix

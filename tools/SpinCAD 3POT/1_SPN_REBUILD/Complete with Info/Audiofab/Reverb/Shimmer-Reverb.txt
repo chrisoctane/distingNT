@@ -1,0 +1,10 @@
+Shimmer Reverb
+Damping
+Time
+Shimmer
+Audiofab (Mono Sum) \n
+Written by DrAlx (Alex Lawrow) -- based \n
+on Mick Taylor's (Ice-9s) reverb loop \n
+Pot 0: Amount of treble in reverb loop \n
+Pot 1: Reverb time (0 to 10 seconds) \n
+Pot 2: Shimmer level \n

@@ -1,0 +1,10 @@
+long-delay-chorus
+L tap
+R tap
+depth
+Dual Defect 289 by Wir35 - Cambridge \n
+ \n
+ \n
+Pot 0: Left tap time \n
+Pot 1: Right tap time \n
+Pot 2: Chorus depth \n

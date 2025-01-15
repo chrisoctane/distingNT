@@ -1,0 +1,5 @@
+3K_V1_7_FLANGE by Spin Semiconductor
+Pre-delay
+Decay
+Damping
+Flanged. (Sum)(Stereo)

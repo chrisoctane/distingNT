@@ -1,0 +1,9 @@
+three-head-delay-with-limiter
+DlyTime
+LRTapMix
+Feedback
+
+SpinCAD \n
+ \n
+Sum In \n
+Stereo Output \n

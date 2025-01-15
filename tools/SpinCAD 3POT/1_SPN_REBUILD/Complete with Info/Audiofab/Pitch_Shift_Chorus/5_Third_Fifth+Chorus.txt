@@ -1,0 +1,11 @@
+5 Third and Fifth with Chorus
+Speed
+3rd
+5th
+Audiofab (Mono Sum) \n
+ \n
+Patch 5: Third and Fifth with Chorus \n
+Pot 0: Chorus Speed \n
+Pot 1: Third above level \n
+Pot 2: Fifth above level \n
+

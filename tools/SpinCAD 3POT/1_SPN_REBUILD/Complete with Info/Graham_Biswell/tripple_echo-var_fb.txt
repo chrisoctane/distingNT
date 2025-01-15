@@ -1,0 +1,10 @@
+tripple_echo-var_fb
+tap 0
+tap 1
+tap 2
+Graham Biswell (Sum) \n
+3 delay taps are treated in parallel. \n
+feedback & damping are fixed, but f/b \n
+varies slighly depending on delay time \n
+(longer time, less f/b) damping for \n
+each tap is different.

@@ -1,0 +1,6 @@
+rev_rt_d_f by Keith Barr 
+VerbTime
+Diffusion
+DcyFilt
+(Sum)(Stereo) \n
+Reverb program that allows three controls, reverb time, diffusion and high/low frequency damping

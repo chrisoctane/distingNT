@@ -1,0 +1,10 @@
+dv103-2head-2_1-reverb
+time
+feedback
+damping
+Graham Biswell (Sum) \n
+Dual head tape echo + reverb \n
+ \n
+pot 0 echo delay time \n
+pot 1 echo feedback \n
+pot 2 damping \n

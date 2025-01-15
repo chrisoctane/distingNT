@@ -1,0 +1,12 @@
+tremolo-shapes
+shape
+depth
+speed
+By Slacker (L)(Mono) \n
+Tremolo with multiple LFO waveshapes \n
+http://www.spinsemi.com/forum/viewtopic
+.php?f=3&t=516
+
+
+
+

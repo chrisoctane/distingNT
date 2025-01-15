@@ -1,0 +1,10 @@
+My_Shimmer_03
+DelayT
+ReverbT
+Shimmer
+Cybercow (Stereo) \n
+Shimmer Reverb \n
+ \n
+Pot 0: DelayTime (short delay ~50ms) \n
+Pot 1: Reverb Time \n
+Pot 2: Shimmer \n

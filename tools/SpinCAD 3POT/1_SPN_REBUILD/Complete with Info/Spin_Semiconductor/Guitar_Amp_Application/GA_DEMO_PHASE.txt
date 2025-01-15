@@ -1,0 +1,8 @@
+GA_DEMO_PHASE
+Reverb level
+Phase rate
+Sweep width
+(Sum)
+
+
+

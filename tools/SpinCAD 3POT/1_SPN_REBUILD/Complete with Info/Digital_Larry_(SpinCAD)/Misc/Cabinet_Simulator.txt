@@ -1,0 +1,9 @@
+Cabinet_Simulator
+LowPass
+HighPass
+AllPass
+
+SpinCAD (Stereo) \n
+ \n
+Sum In \n
+L Sum Out R Allpass Out \n

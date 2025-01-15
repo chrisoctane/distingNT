@@ -1,0 +1,10 @@
+pp-dubble
+delay rel
+time
+feedback
+Graham Biswell (Stereo)
+Ping pong delay with dual taps. \n
+ \n
+pot0 time of delay0 tap relative to R \n
+pot1 adjusts delay time \n
+pot2 adjusts feedback coefficient \n

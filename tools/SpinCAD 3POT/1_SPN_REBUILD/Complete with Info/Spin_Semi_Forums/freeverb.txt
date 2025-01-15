@@ -1,0 +1,8 @@
+freeverb
+combfeedback
+----
+----
+(L)(Stereo) \n
+from http://www.spinsemi.com/forum/ \n
+viewtopic.php?t=309 \n
+pot0: combfeedback

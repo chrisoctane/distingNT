@@ -1,0 +1,9 @@
+7_Flanger
+DlyTime
+Multiply
+Feedback
+
+SpinCAD (Stereo) \n
+ \n
+L Sum Input \n
+L Dry Output R Servo Flanger Out \n

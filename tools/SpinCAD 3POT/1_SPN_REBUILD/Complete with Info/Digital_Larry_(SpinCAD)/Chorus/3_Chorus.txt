@@ -1,0 +1,9 @@
+3_Chorus
+RateWidth
+Amount
+----
+
+SpinCAD (L)(Sum) \n
+ \n
+L Mono Input	R No Input \n
+L Chorus Out	R Chorus Out \n

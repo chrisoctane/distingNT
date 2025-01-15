@@ -1,0 +1,10 @@
+4-Phase-Filter_Wah_St-In_MD_02
+Wah
+Speed
+Depth
+Cybercow (Stereo) \n
+Stereo AutoWah \n
+ \n
+Pot 0: Auto Wah Filter \n
+Pot 1: LFO Speed \n
+Pot 2: LFO Depth \n

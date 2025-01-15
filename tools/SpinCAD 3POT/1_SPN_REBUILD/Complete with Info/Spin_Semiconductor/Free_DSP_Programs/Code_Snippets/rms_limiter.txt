@@ -1,0 +1,7 @@
+rms_limiter by Keith Barr
+----
+----
+----
+(Stereo) \n
+rms limiter, approx 10dB limiting range. 
+stereo I/O, common control (to maintain image)

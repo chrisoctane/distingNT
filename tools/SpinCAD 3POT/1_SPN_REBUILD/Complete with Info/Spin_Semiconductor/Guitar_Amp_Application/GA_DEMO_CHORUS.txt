@@ -1,0 +1,8 @@
+GA_DEMO_CHORUS
+Reverb level
+Rate
+Effect level
+(Sum)
+
+
+

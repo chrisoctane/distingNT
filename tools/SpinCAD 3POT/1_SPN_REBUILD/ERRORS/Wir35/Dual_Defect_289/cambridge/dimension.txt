@@ -1,0 +1,10 @@
+dimension
+LR offset
+mod depth
+mod speed
+Dual Defect 289 by Wir35 - Cambridge \n
+ \n
+ \n
+Pot 0: L/R delay offset, up to ~30ms \n
+Pot 1: Modulation speed \n
+Pot 2: Modulation depth \n

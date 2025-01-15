@@ -1,0 +1,10 @@
+MN3011 Reverb
+Delay
+Repeats
+Mix
+Audiofab (Mono Sum) \n
+ \n
+Based on a classic MN3011 reverb design \n
+Pot 0: Delay \n
+Pot 1: Repeats \n
+Pot 2: Mix \n

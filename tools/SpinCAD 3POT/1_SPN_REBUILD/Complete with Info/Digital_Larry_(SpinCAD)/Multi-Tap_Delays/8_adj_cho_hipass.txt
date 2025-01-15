@@ -1,0 +1,9 @@
+8_adj_cho_hipass
+Time
+Feedback
+ChorWidth
+
+SpinCAD (Sum) \n
+ \n
+Sum Input \n
+Sum Output \n

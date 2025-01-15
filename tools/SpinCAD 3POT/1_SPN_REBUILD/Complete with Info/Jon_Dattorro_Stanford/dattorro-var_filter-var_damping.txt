@@ -1,0 +1,10 @@
+dattorro-var_filter-var_damping
+input LPF
+time
+damping
+Plate Reverb (Stereo) \n
+Derived from Jon Dattorro paper \n
+ \n
+pot0 = lpf frequency on input \n
+pot1 = reverb time \n
+pot2 = hf loss in the tank \n

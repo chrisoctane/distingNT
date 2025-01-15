@@ -1,0 +1,10 @@
+act_xover by Keith Barr
+----
+----
+----
+(L)(L Low)(R High) \n
+XOVER and response compensation for 
+powered loudspeaker Crossover for 
+2-way system. Mono input, HF and LF 
+outputs 24dB/oct crossover (Linkwitz-Riley)
+Tweeter delay in increments (Fs=48KHz)

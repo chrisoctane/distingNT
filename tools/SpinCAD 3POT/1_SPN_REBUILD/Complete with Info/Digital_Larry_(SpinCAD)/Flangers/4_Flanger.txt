@@ -1,0 +1,9 @@
+4_Flanger
+Rate
+Width
+Feedback
+
+SpinCAD (Sum) \n
+ \n
+Sum Input \n
+Sum Output \n

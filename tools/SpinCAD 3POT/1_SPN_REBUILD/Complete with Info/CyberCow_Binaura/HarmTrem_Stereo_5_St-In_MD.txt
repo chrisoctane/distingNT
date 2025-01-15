@@ -1,0 +1,10 @@
+HarmTrem_Stereo_5_St-In_MD
+Speed
+Width
+----
+Cybercow (Stereo) \n
+Stereo Harmonic Tremolo \n
+ \n
+Pot 0: Speed \n
+Pot 1: Width \n
+Pot 2: N/A \n

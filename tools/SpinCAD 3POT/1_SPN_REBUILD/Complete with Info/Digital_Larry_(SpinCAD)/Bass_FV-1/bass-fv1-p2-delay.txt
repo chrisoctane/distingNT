@@ -1,0 +1,9 @@
+bass-fv1-p2-delay
+Time
+Feedback
+Mix
+
+Patch saved from \n
+SpinCAD Designer version 1026 \n
+ \n
+Delay

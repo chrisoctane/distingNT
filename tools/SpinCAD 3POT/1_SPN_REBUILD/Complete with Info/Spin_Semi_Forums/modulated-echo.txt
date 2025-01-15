@@ -1,0 +1,12 @@
+modulated-echo
+time
+depth
+level
+(R)(Mono)
+spinsemi.com/forum/viewtopic.php?f=4 \n
+&t=649 mono right adc input, two out \n
+pot0=delay time \n
+pot1=modulation depth \n
+pot2=echo level.
+
+

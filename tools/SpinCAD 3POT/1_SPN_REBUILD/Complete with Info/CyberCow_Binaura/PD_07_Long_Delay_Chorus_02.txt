@@ -1,0 +1,10 @@
+PD_07_Long_Delay_Chorus_02
+Time
+Feedback
+Level
+Cybercow (Stereo) \n
+Stereo Long Delay with Chorus. \n
+from 0-50% \n
+Pot 0: Delay time \n
+Pot 1: Feedback level \n
+Pot 2: Chorus level \n

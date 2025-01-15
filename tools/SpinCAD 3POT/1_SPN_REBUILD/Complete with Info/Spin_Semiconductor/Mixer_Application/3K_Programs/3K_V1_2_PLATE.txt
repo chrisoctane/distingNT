@@ -1,0 +1,5 @@
+3K_V1_2_PLATE by Spin Semiconductor
+Pre-delay
+Decay
+Damping
+Plate reverb. (Sum)(Stereo)

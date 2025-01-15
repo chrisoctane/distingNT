@@ -1,0 +1,218 @@
+;Multitap delay+Reverb for A_16/24 program set.
+
+;variables written as byte values to:
+ 
+;reg0 = delay (0-127)
+;reg1 = taps (0-127)
+;reg2 = Reverb (0-127)
+
+mem	tdel	18000
+
+mem	ap1	373
+mem	ap2	526
+mem	ap3	867
+mem	ap4	1191
+
+mem	lap1a	1578
+mem	lap1b	1887
+mem	d1	2486
+mem	lap2a	1998
+mem	lap2b	1367
+mem	d2	2391
+
+;declare registers:
+
+equ	del	reg0
+equ	taps	reg1
+equ	rev	reg2
+equ	apout	reg3
+equ	dout	reg4
+equ	tend	reg5
+equ	t1	reg6	;tap loactions:
+equ	t2	reg7
+equ	t3	reg8
+equ	t4	reg9
+equ	t5	reg10
+equ	t6	reg11
+equ	t7	reg12
+equ	t8	reg13
+equ	s1	reg14	;tap signals:
+equ	s2	reg15
+equ	s3	reg16
+equ	s4	reg17
+equ	s5	reg18
+equ	s6	reg19
+equ	s7	reg20
+equ	s8	reg21
+equ	revr	reg22
+equ	revl	reg23	;scaled reverb outputs
+
+;read-first registers:
+
+equ	lp1	reg25
+equ	lp2	reg26
+equ	hp1	reg27
+equ	hp2	reg28
+
+;mandatory first 6 lines:
+
+or	%01000000_00000000_00000000
+wrax	reg0,0
+or	%00000000_00000000_00000000
+wrax	reg1,0
+or	%00100000_00000000_00000000
+wrax	reg2,0
+
+;first clear read-first registers:
+
+skp	run,endclr
+wrax	lp1,0
+wrax	lp2,0
+wrax	hp1,0
+wrax	hp2,0
+endclr:
+
+;write inputs to delay:
+
+rdax	adcl,0.5
+rdax	adcr,0.5
+wra	tdel,0.5	;pass through to reverb
+
+;do reverb:
+
+rda	ap1#,0.5
+wrap	ap1,-0.5
+rda	ap2#,0.5
+wrap	ap2,-0.5
+rda	ap3#,-0.5
+wrap	ap3,0.5
+rda	ap4#,0.5
+wrap	ap4,-0.5
+wrax	apout,0
+
+rda	d2#,0.5
+rdax	apout,1
+rda	lap1a#,0.5
+wrap	lap1a,-0.5
+rda	lap1b#,0.45
+wrap	lap1b,-0.45
+rdfx	lp1,0.5
+wrlx	lp1,-0.6
+rdfx	hp1,0.02
+wrhx	hp1,-1
+wra	d1,1.99
+mulx	rev
+wrax	revr,0
+
+rda	d1#,-0.5
+rdax	apout,1
+rda	lap2a#,0.45
+wrap	lap2a,-0.45
+rda	lap2b#,-0.5
+wrap	lap2b,0.5
+rdfx	lp2,0.5
+wrlx	lp2,-0.6
+rdfx	hp2,0.02
+wrhx	hp2,-1
+wra	d1,1.99
+mulx	rev
+wrax	revl,0
+
+;now figure out total delay length and tap positions:
+
+rdax	del,0.55	;get maximum delay
+wrax	t1,0.80
+wrax	t2,0.81
+wrax	t3,0.84
+wrax	t4,0.81
+wrax	t5,0.74
+wrax	t6,0.79
+wrax	t7,0.88
+wrax	t8,1
+wrax	addr_ptr,0
+clr
+rmpa	1
+wrax	s8,0
+rdax	t7,1
+wrax	addr_ptr,0
+rmpa	1
+wrax	s7,0
+rdax	t6,1
+wrax	addr_ptr,0
+rmpa	1
+wrax	s6,0
+rdax	t5,1
+wrax	addr_ptr,0
+rmpa	1
+wrax	s5,0
+rdax	t4,1
+wrax	addr_ptr,0
+rmpa	1
+wrax	s4,0
+rdax	t3,1
+wrax	addr_ptr,0
+rmpa	1
+wrax	s3,0
+rdax	t2,1
+wrax	addr_ptr,0
+rmpa	1
+wrax	s2,0
+rdax	t1,1
+wrax	addr_ptr,0
+rmpa	1
+wrax	s1,0
+
+;now interpret the taps parameter to skip to proper positions,
+;left then right:
+
+rdax	taps,1
+and	%01100000_00000000_00000000	;truncate
+skp	zro,l0
+sof	1,-0.25
+skp	zro,l1
+sof	1,-0.25
+skp	zro,l2
+clr
+
+rdax	s8,0.6
+l2:
+rdax	s5,0.4
+l1:
+rdax	s2,0.5
+l0:
+rdax	s4,0.3
+rdax	s1,0.6
+
+rdax	revl,1
+wrax	dacl,0
+
+rdax	taps,1
+and	%01100000_00000000_00000000	;truncate
+skp	zro,r0
+sof	1,-0.25
+skp	zro,r1
+sof	1,-0.25
+skp	zro,r2
+clr
+
+rdax	s7,0.55
+r2:
+rdax	s6,0.6
+r1:
+rdax	s3,0.25
+r0:
+rdax	s4,0.6
+rdax	s1,0.3
+
+rdax	revr,1
+wrax	dacr,0
+
+skp	run,1
+wlds	sin0,40,100
+
+cho	rda,sin0,sin|reg|compc,d1+100
+cho	rda,sin0,sin,d1+101
+wra	d1+200,0
+cho	rda,sin0,cos|reg|compc,d2+100
+cho	rda,sin0,cos,d2+101
+wra	d2+200,0

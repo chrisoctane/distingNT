@@ -1,0 +1,6 @@
+RevRev
+predelay
+decay
+damping
+Malekko (Sum) \n
+Reverse Reverb 

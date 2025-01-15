@@ -1,0 +1,10 @@
+Echo_Chorus_St-In_MD
+Time
+Feedback
+Chorus
+Cybercow (Stereo) \n
+Short stereo delay with chorus \n
+ \n
+Pot 0: Short Delay Time \n
+Pot 1: Feedback \n
+Pot 2: Chorus Width Left / Depth Right \n

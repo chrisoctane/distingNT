@@ -1,0 +1,6 @@
+ChoFlaRev by Spin Semiconductor
+predelay
+rate
+rev
+(Stereo) \n
+Chorus/Flange+Reverb program for A16_24 program set.

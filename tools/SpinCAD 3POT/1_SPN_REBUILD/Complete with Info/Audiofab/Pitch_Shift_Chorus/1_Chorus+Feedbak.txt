@@ -1,0 +1,10 @@
+1 Chorus with feedback
+Speed
+Depth
+Feedback
+Audiofab (Mono Sum) \n
+ \n
+Patch 1: Chorus with feedback \n
+Pot 0: Speed \n
+Pot 1: Depth \n
+Pot 2: Feedback \n

@@ -1,0 +1,9 @@
+7_adj_cho_bandpass
+Time
+Feedback
+ChorWidth
+
+SpinCAD (Sum) \n
+ \n
+Sum Input \n
+Sum Output \n

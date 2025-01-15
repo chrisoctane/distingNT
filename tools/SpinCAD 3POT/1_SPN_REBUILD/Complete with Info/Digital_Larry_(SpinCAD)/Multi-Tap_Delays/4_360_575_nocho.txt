@@ -1,0 +1,9 @@
+4_360_575_nocho
+Time
+Feedback
+HighPass
+
+SpinCAD (Sum) \n
+ \n
+Sum Input \n
+Sum Output \n

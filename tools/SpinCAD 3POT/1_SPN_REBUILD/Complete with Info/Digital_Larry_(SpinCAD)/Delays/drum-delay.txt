@@ -1,0 +1,8 @@
+drum-delay
+DlyTime
+LRTap
+Feedback
+
+SpinCAD (Stereo) \n
+ \n
+Stereo Output \n

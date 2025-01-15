@@ -1,0 +1,10 @@
+dv103-1head-pp-2_1-4xreverb
+time
+feedback
+damping
+Graham Biswell (Stereo) \n
+Dual head tape echo \n + reverb with \n
+added ping pong \n
+pot 0 echo delay time \n
+pot 1 echo feedback \n
+pot 2 damping \n

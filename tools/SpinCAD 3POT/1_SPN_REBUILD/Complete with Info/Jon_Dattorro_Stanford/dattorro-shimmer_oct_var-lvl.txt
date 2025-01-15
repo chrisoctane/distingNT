@@ -1,0 +1,10 @@
+dattorro-shimmer_oct_var-lvl
+shimmer
+time
+damping
+Plate Reverb (Stereo) \n
+Derived from Jon Dattorro paper \n
+ \n
+pot0 = shimmer level \n
+pot1 = reverb time \n
+pot2 = hf loss in the tank \n

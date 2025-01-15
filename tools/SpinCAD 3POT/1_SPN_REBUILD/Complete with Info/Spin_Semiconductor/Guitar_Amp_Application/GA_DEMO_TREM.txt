@@ -1,0 +1,8 @@
+GA_DEMO_TREM
+Reverb level
+Tremelo rate
+Effect level
+(Sum)
+
+
+

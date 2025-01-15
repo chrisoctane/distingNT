@@ -1,0 +1,10 @@
+dance_ir_h_l by Dave Spinkler
+Vrb2InfRT
+2pHPF
+2pLPF
+dance patch for disco mixers: (Stereo) \n
+Reverb plus 2-pole highpass & 2-pole \n
+low-pass.  \n
+pot1 = Reverb to infinite \n
+pot2 = High pass filter \n
+pot3 = Low pass filter \n

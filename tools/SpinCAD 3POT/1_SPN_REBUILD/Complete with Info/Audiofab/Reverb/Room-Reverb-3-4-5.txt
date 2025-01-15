@@ -1,0 +1,10 @@
+Room Reverb-3-4-5
+Delay
+Repeats
+Mix
+Audiofab (Mono Sum) \n
+Made with SpinCAD Designer \n
+(by Digital Larry) \n
+Pot 0: Delay \n
+Pot 1: Repeats \n
+Pot 2: Mix \n

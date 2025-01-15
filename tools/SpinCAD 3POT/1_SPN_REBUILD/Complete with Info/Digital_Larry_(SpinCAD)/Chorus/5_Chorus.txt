@@ -1,0 +1,8 @@
+5_Chorus
+RateWidth
+Amount
+----
+
+SpinCAD (Stereo) \n
+ \n
+Full Stereo Chorus

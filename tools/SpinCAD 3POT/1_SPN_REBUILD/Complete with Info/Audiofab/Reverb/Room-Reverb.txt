@@ -1,0 +1,10 @@
+Room Reverb
+Pre-delay
+Time
+Level
+Audiofab (Mono Sum) \n
+ \n
+ \n
+Pot 0: Pre-delay \n
+Pot 1: Reverb time \n
+Pot 2: Reverb level \n

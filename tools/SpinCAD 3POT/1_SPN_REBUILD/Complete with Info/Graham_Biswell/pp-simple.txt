@@ -1,0 +1,12 @@
+pp-simple
+time
+feedback
+damping
+Graham Biswell (Stereo) \n
+Simple ping pong \n
+delay with adjustable feedback & lpf \n
+damping \n
+pot0 adjusts ping delay time \n
+pot1 adjusts feedback coefficient \n
+pot2 adjusts damping \n
+

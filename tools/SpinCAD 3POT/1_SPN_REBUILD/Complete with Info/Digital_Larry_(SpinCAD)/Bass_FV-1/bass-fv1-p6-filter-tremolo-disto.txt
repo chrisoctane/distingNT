@@ -1,0 +1,10 @@
+bass-fv1-p6-filter-tremolo-disto
+Speed
+Resonance
+Gain
+
+Patch saved from \n
+SpinCAD Designer version 1026 \n
+ \n
+Filter Tremolo + Disto Modified from \n
+ http://holycityaudio.com/forum/viewtopic.php?f=30&t=1660

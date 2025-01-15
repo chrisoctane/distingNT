@@ -1,0 +1,6 @@
+Gate by Spin Semiconductor
+p0
+p1
+kd
+(Stereo) \n
+Gate program for A16_24 program set.

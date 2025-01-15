@@ -1,0 +1,5 @@
+3K_V1_3_GATED by Spin Semiconductor
+Pre-delay
+Decay
+Damping
+Tight gated. (Sum)(Stereo)

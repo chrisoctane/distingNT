@@ -1,0 +1,10 @@
+Three Tap Delay Reverb
+Delay time
+Repeats
+Mix
+Audiofab (Mono Sum) \n
+ \n
+ \n
+Pot 0: Delay \n
+Pot 1: Repeats \n
+Pot 2: Mix \n

@@ -1,0 +1,5 @@
+3K_V1_0_Hall by Spin Semiconductor
+Pre-delay
+Decay
+Damping
+Grand hall reverb. (Sum)(Stereo)
