@@ -1,1 +1,0 @@
-This folder is identical to "LABS Soft Pno - PedOn". It was just duplicated with the name "!LABS Soft Pno - PedOn" so that it would come first and so be the default folder when loading the Poly Multisample algorithm.
