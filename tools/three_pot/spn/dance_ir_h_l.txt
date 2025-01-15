@@ -1,0 +1,5 @@
+Reverb+HP+LP
+Reverb
+High pass
+Low pass
+Reverb plus 2-pole high-pass and 2-pole low-pass.
