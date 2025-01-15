@@ -1,0 +1,188 @@
+{
+"kind": "disting NT preset",
+ "version": 1,
+ "author": "redlester            ",
+ "name": "East Coast (CV)     ",
+ "slots": [
+ {
+  "guid": "note",
+   "specs": [
+   0,
+    0]
+   ,
+   "lines": [
+   "Standard East Coast voice      ",
+    "Inputs: 1=Trig 2=Pitch 3=Cutoff",
+    "4=Waveshape 5=Tri/Sw V 6=Sq V  ",
+    "7=Sub V 8=Attack 9=Decay/Rel   ",
+    " ",
+    " ",
+    " "]
+   ,
+   "name": "Notes                  ",
+   "parameters": [
+   0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0]
+   }
+  ,
+  {
+  "guid": "env2",
+   "specs": [
+   1,
+    0]
+   ,
+   "name": "Envelope (AR/AD)       ",
+   "parameters": [
+   [
+    1,
+     2,
+     0,
+     {
+     "v": 5,
+      "cv": {
+      "input": 8,
+       "unipolar": 0,
+       "isGate": 0,
+       "volts": 5,
+       "delta": 1023}
+      }
+     ,
+     {
+     "v": 600,
+      "cv": {
+      "input": 9,
+       "unipolar": 0,
+       "isGate": 0,
+       "volts": 5,
+       "delta": 1023}
+      }
+     ,
+     104,
+     40]
+    ,
+    [
+    1,
+     1,
+     21,
+     0,
+     800,
+     0]
+    ]
+   }
+  ,
+  {
+  "guid": "vcow",
+   "specs": [
+   0,
+    0]
+   ,
+   "name": "VCO with waveshaping   ",
+   "parameters": [
+   2,
+    4,
+    0,
+    22,
+    0,
+    22,
+    0,
+    22,
+    0,
+    -32,
+    0,
+    0,
+    0,
+    1000,
+    1000,
+    1000,
+    {
+    "v": 0,
+     "cv": {
+     "input": 5,
+      "unipolar": 0,
+      "isGate": 0,
+      "volts": 5,
+      "delta": 46}
+     }
+    ,
+    {
+    "v": -40,
+     "cv": {
+     "input": 6,
+      "unipolar": 0,
+      "isGate": 0,
+      "volts": 5,
+      "delta": 46}
+     }
+    ,
+    {
+    "v": -40,
+     "cv": {
+     "input": 7,
+      "unipolar": 0,
+      "isGate": 0,
+      "volts": 5,
+      "delta": 46}
+     }
+    ,
+    0]
+   }
+  ,
+  {
+  "guid": "fsvf",
+   "specs": [
+   0,
+    0]
+   ,
+   "name": "VCF (State Variable)   ",
+   "parameters": [
+   22,
+    3,
+    0,
+    0,
+    0,
+    22,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    8400,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0]
+   }
+  ,
+  {
+  "guid": "vcam",
+   "specs": [
+   1,
+    0]
+   ,
+   "name": "VCA/Multiplier         ",
+   "parameters": [
+   [
+    21,
+     1,
+     8]
+    ,
+    [
+    22,
+     13,
+     1]
+    ]
+   }
+  ]
+ ,
+ "ui": {
+ "currentSlot": 0,
+  "displayMode": "params"}
+ }
