@@ -1,5 +1,0 @@
-3K_V1_5_STECHO-REV by Spin Semiconductor
-Pre-delay
-Decay
-Damping
-Stereo reverb. (Sum)(Stereo)

@@ -1,6 +1,0 @@
-Wide Mash
-Spin Rate
-Mash
-High Pass
-Chris Octane (Stereo) \n
-Stereo width tool. 'Mash' is a phase inverted distortion which pushes down the centre of the image. 'Spin' is panning LFO's intensity. HPF cuts low frequencies.

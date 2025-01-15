@@ -1,0 +1,10 @@
+preset name
+pot0
+pot1
+pot2
+title titletitle title \n
+ \n
+max length - column 42, lines 10, \n
+much more stuff, plenty of stuff then \n
+a bit more can fit before the last and \n
+final info line which is number 10.

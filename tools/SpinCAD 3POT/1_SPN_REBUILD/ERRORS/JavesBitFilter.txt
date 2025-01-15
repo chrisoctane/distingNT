@@ -1,7 +1,0 @@
-JavesBitFilter
-BitReducer
-LowPass
-Resonance
-DistingNT Forum (Stereo) \n
- \n
-The latest in Encabulation Technology has enabled the Disting community to create a flangeless filter that has zero fromultion in the cramping stage!
