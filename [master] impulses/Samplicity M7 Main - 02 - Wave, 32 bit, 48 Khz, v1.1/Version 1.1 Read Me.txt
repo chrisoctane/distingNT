@@ -1,0 +1,60 @@
+July 30, 2010
+
+
+Why a version 1.1 so quickly?
+=============================
+ 
+On the V.I. Control Forum several members have tested the IRs from the first release, two weeks ago.
+
+Someone noticed that with instruments panned to one side, the first reflections appeared on the other side... :-(
+
+During the sweep recordings I had already noticed that I made a routing error in my MADI/Adat routing (this can be sometimes confusing stuff with so many channels). So, during the editing and processing sessions I thought I could correct this by simply swapping channels in a huge batch run. But alas, I forgot that I also needed to exchange the Left and Right files for the True Stereo sets. What a silly mistake! I am very sorry for this!
+
+When you have downloaded this version and know friends or fellows who may still have the 1.0 version, please point them to the updated download page:
+
+http://www.samplicity.com/bricasti-m7-impulse-responses/
+
+and tell them to download the version 1.1 files.
+
+
+DonationWare
+------------
+
+If you like these very accurate IRs and if you can use them for your work, please consider a donation, to help me cover my rather high development costs (gear rent, a few weeks of recording and post-pro time, and hosting and bandwidth costs. Thank you in advance!
+
+
+
+Spread the word
+---------------
+
+And don't forget to Retweet, post on FaceBook and other communities and on sites like StumbleUpon, Digg, Delicious and others!
+
+
+Thanks
+------
+
+Many thanks to Brian and Casey from Bricasti who have allowed me to create this library! 
+
+
+Join V.I. Control Forum?
+------------------------
+
+BTW, Casey has also joined the V.I. Control Forum. If you are not yet a member, please be invited to join us. I am one of the moderators, but moderation is hardly ever needed. It is a great community of professionals, semi-pros and hobbyists - with a very friendly and supportive atmosphere!
+
+http://www.vi-control.net/forum/index.php
+
+
+
+Happy music making and mixing,
+
+
+Peter Emanuel Roos
+
+peter@peterroos.com
+
+http://www.Samplicity.com
+
+http://www.PeterEmanuelRoos.com
+
+http://www.FaceBook.com/PeterEmanuelRoos
+
