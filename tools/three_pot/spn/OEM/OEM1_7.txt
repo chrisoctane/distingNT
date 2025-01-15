@@ -1,4 +1,0 @@
-Chorus
-Depth
-Width
-Rate

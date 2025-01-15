@@ -1,5 +1,0 @@
-Echo
-Repeat
-Delay
-Damping
-The echo program allows a mono input to produce a mono output, delayed and repeated.
