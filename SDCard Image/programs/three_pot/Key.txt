@@ -1,0 +1,11 @@
+D delay
+F filter
+G guitar
+M modulation
+O other/ uncategorised
+P pitch shift
+R reverb
+T distortion
+V fv1 bass
+X portable mixer effects
+Y dynamics
