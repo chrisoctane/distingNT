@@ -6,3 +6,4 @@ If you copy more than one large folder into Disting NT's 'samples' folder,  you 
 Note:
 
 The factory and forum presets that require samples will work properly once you have the 'preset samples' in the 'samples' folder. You can see those in '[master] samples'.
+However,  the first samples in these folders will be close enough if you don't have factory sounds installed.  I've marked hem with an !exclamation.
