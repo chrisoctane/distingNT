@@ -1,0 +1,170 @@
+{
+"kind": "disting NT preset",
+ "version": 1,
+ "author": "Obakegaku            ",
+ "name": "Anchored medicine   ",
+ "slots": [{
+  "guid": "srra",
+   "specs": [0,0,0]
+   ,
+   "name": "Shift Register Random  ",
+   "parameters": [1,0,21,22,-32,1,12,60,0,0,0,10,50,0,0]
+   ,
+   "ui": {
+   "page": 1,
+    "items": [1,1,0,2]
+    ,
+    "display": "gui"}
+   }
+  ,{
+  "guid": "quan",
+   "specs": [1,0,0]
+   ,
+   "name": "Quantizer              ",
+   "parameters": [[0,0,0,4,8,4,0,0,2,0,0,-1,0,48,13081,1]
+    ,[21,0,23,0,0]
+    ]
+   ,
+   "ui": {
+   "page": 2,
+    "items": [8,0,4]
+    ,
+    "display": "params"}
+   }
+  ,{
+  "guid": "resn",
+   "specs": [0,0,0]
+   ,
+   "name": "Resonator              ",
+   "parameters": [0,0,4,-12,0,{
+    "v": 39,
+     "cv": {
+     "input": 21,
+      "unipolar": 1,
+      "isGate": 0,
+      "volts": 10,
+      "delta": 127}
+     }
+    ,30,87,107,2,0,0,22,23,1,0,0,0,0,0,17,18,0,-40,0,0,1,1,0,0]
+   ,
+   "ui": {
+   "page": 0,
+    "items": [6,0,1,1]
+    ,
+    "display": "params"}
+   }
+  ,{
+  "guid": "dels",
+   "specs": [1,0,0]
+   ,
+   "name": "Delay (Stereo)         ",
+   "parameters": [17,18,17,18,0,2,{
+    "v": 35,
+     "cv": {
+     "input": 21,
+      "unipolar": 1,
+      "isGate": 0,
+      "volts": 10,
+      "delta": 100}
+     }
+    ,0,3,{
+    "v": 50,
+     "cv": {
+     "input": 21,
+      "unipolar": 1,
+      "isGate": 0,
+      "volts": 10,
+      "delta": 100}
+     }
+    ,-100,{
+    "v": 23,
+     "cv": {
+     "input": 21,
+      "unipolar": 1,
+      "isGate": 0,
+      "volts": 2,
+      "delta": 23}
+     }
+    ,{
+    "v": 0,
+     "cv": {
+     "input": 21,
+      "unipolar": 1,
+      "isGate": 0,
+      "volts": 10,
+      "delta": 1}
+     }
+    ,0]
+   ,
+   "ui": {
+   "page": 0,
+    "items": [6,3]
+    ,
+    "display": "params"}
+   }
+  ,{
+  "guid": "krby",
+   "specs": [5,0,0]
+   ,
+   "name": "Kirbinator             ",
+   "parameters": [1,1,17,6,0,21,22,0,6,-12,0,21,50,85,0,78,10,33,0,{
+    "v": 0,
+     "cv": {
+     "input": 21,
+      "unipolar": 1,
+      "isGate": 0,
+      "volts": 10,
+      "delta": 100}
+     }
+    ,18,1,2,16,2,16,0,0,100]
+   ,
+   "ui": {
+   "page": 4,
+    "items": [7,1,0,1,1]
+    ,
+    "display": "gui"}
+   }
+  ,{
+  "guid": "revb",
+   "specs": [0,0,0]
+   ,
+   "name": "Reverb                 ",
+   "parameters": [1,1,17,18,0,10,{
+    "v": 443,
+     "cv": {
+     "input": 21,
+      "unipolar": 1,
+      "isGate": 0,
+      "volts": 10,
+      "delta": 29600}
+     }
+    ,2,100,100,250,0,6,6]
+   ,
+   "ui": {
+   "page": 0,
+    "items": [0,4]
+    ,
+    "display": "params"}
+   }
+  ,{
+  "guid": "satu",
+   "specs": [2,0,0]
+   ,
+   "name": "Saturation             ",
+   "parameters": [[0,-6,0]
+    ,[17,1]
+    ,[18,1]
+    ]
+   ,
+   "ui": {
+   "page": 0,
+    "items": [1,0]
+    ,
+    "display": "gui"}
+   }
+  ]
+ ,
+ "ui": {
+ "currentSlot": 6,
+  "displayMode": "algorithm"}
+ }

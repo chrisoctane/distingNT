@@ -1,0 +1,432 @@
+{
+"kind": "disting NT preset",
+ "version": 1,
+ "name": "Echos of O)))       ",
+ "slots": [
+ {
+  "guid": "lfo ",
+   "specs": [
+   4,
+    0]
+   ,
+   "name": "LFO                    ",
+   "parameters": [
+   [
+    1]
+    ,
+    [
+    21,
+     0,
+     1,
+     6429,
+     0,
+     10,
+     0,
+     0,
+     0,
+     290,
+     0,
+     0,
+     0,
+     0]
+    ,
+    [
+    22,
+     0,
+     1,
+     7397,
+     0,
+     15,
+     0,
+     0,
+     0,
+     208,
+     0,
+     0,
+     0,
+     0]
+    ,
+    [
+    23,
+     0,
+     1,
+     4742,
+     0,
+     7,
+     0,
+     0,
+     0,
+     130,
+     0,
+     0,
+     0,
+     0]
+    ,
+    [
+    24,
+     0,
+     1,
+     2942,
+     0,
+     17,
+     0,
+     0,
+     0,
+     70,
+     0,
+     0,
+     0,
+     0]
+    ]
+   }
+  ,
+  {
+  "guid": "drea",
+   "specs": [
+   0,
+    0]
+   ,
+   "wavetable": "asleep",
+   "name": "Dream Machine          ",
+   "parameters": [
+   71,
+    37,
+    79,
+    5,
+    31,
+    18443,
+    2,
+    256,
+    {
+    "v": 625,
+     "cv": {
+     "input": 21,
+      "unipolar": 0,
+      "isGate": 0,
+      "volts": 5,
+      "delta": 1023}
+     }
+    ,
+    {
+    "v": 155,
+     "cv": {
+     "input": 24,
+      "unipolar": 0,
+      "isGate": 0,
+      "volts": 5,
+      "delta": 1023}
+     }
+    ,
+    625,
+    {
+    "v": 125,
+     "cv": {
+     "input": 22,
+      "unipolar": 0,
+      "isGate": 0,
+      "volts": 5,
+      "delta": 1023}
+     }
+    ,
+    1,
+    {
+    "v": 1,
+     "cv": {
+     "input": 21,
+      "unipolar": 1,
+      "isGate": 1,
+      "volts": 5,
+      "delta": 1}
+     }
+    ,
+    1,
+    {
+    "v": 1,
+     "cv": {
+     "input": 14,
+      "unipolar": 1,
+      "isGate": 1,
+      "volts": 5,
+      "delta": 1}
+     }
+    ,
+    1,
+    -25,
+    -18,
+    -18,
+    -24,
+    -25,
+    {
+    "v": -100,
+     "cv": {
+     "input": 21,
+      "unipolar": 0,
+      "isGate": 0,
+      "volts": 5,
+      "delta": 200}
+     }
+    ,
+    {
+    "v": 96,
+     "cv": {
+     "input": 23,
+      "unipolar": 0,
+      "isGate": 0,
+      "volts": 5,
+      "delta": 200}
+     }
+    ,
+    {
+    "v": -50,
+     "cv": {
+     "input": 23,
+      "unipolar": 0,
+      "isGate": 0,
+      "volts": 5,
+      "delta": 200}
+     }
+    ,
+    {
+    "v": 50,
+     "cv": {
+     "input": 21,
+      "unipolar": 0,
+      "isGate": 0,
+      "volts": 5,
+      "delta": 200}
+     }
+    ,
+    23,
+    {
+    "v": 30,
+     "cv": {
+     "input": 24,
+      "unipolar": 0,
+      "isGate": 0,
+      "volts": 5,
+      "delta": 2000}
+     }
+    ,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    {
+    "v": 20,
+     "cv": {
+     "input": 23,
+      "unipolar": 0,
+      "isGate": 0,
+      "volts": 5,
+      "delta": 127}
+     }
+    ,
+    {
+    "v": 7,
+     "cv": {
+     "input": 22,
+      "unipolar": 0,
+      "isGate": 0,
+      "volts": 5,
+      "delta": 127}
+     }
+    ,
+    -2,
+    13,
+    14,
+    0]
+   }
+  ,
+  {
+  "guid": "augu",
+   "specs": [
+   2,
+    0]
+   ,
+   "name": "Augustus Loop          ",
+   "parameters": [
+   5,
+    0,
+    16,
+    50,
+    -40,
+    -6,
+    {
+    "v": 100,
+     "cv": {
+     "input": 21,
+      "unipolar": 0,
+      "isGate": 0,
+      "volts": 5,
+      "delta": 100}
+     }
+    ,
+    {
+    "v": 50,
+     "cv": {
+     "input": 22,
+      "unipolar": 0,
+      "isGate": 0,
+      "volts": 5,
+      "delta": 100}
+     }
+    ,
+    {
+    "v": 50,
+     "cv": {
+     "input": 24,
+      "unipolar": 0,
+      "isGate": 0,
+      "volts": 5,
+      "delta": 100}
+     }
+    ,
+    {
+    "v": 100,
+     "cv": {
+     "input": 23,
+      "unipolar": 0,
+      "isGate": 0,
+      "volts": 5,
+      "delta": 100}
+     }
+    ,
+    100,
+    {
+    "v": 21,
+     "cv": {
+     "input": 23,
+      "unipolar": 0,
+      "isGate": 0,
+      "volts": 5,
+      "delta": 100}
+     }
+    ,
+    {
+    "v": 21,
+     "cv": {
+     "input": 23,
+      "unipolar": 0,
+      "isGate": 0,
+      "volts": 5,
+      "delta": 100}
+     }
+    ,
+    {
+    "v": 100,
+     "cv": {
+     "input": 24,
+      "unipolar": 0,
+      "isGate": 0,
+      "volts": 5,
+      "delta": 100}
+     }
+    ,
+    0,
+    -100,
+    100,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    108,
+    20,
+    0,
+    1,
+    0,
+    63,
+    15,
+    80,
+    13,
+    14,
+    13,
+    14,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0]
+   }
+  ,
+  {
+  "guid": "revb",
+   "specs": [
+   0,
+    0]
+   ,
+   "name": "Reverb                 ",
+   "parameters": [
+   13,
+    14,
+    13,
+    14,
+    0,
+    90,
+    10000,
+    0,
+    25,
+    40,
+    4,
+    6,
+    -14,
+    -8]
+   }
+  ,
+  {
+  "guid": "delt",
+   "specs": [
+   2,
+    1]
+   ,
+   "name": "Delay (Tape)           ",
+   "parameters": [
+   13,
+    14,
+    13,
+    14,
+    0,
+    0,
+    1,
+    80,
+    60,
+    175,
+    -5]
+   }
+  ,
+  {
+  "guid": "revb",
+   "specs": [
+   0,
+    0]
+   ,
+   "name": "Reverb                 ",
+   "parameters": [
+   13,
+    14,
+    13,
+    14,
+    0,
+    100,
+    3000,
+    0,
+    30,
+    25,
+    1,
+    0,
+    -16,
+    -6]
+   }
+  ]
+ }

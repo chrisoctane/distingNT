@@ -1,0 +1,117 @@
+{
+"kind": "disting NT preset",
+ "version": 1,
+ "author": "Octane               ",
+ "name": "FakeNoise NT-Pan    ",
+ "slots": [{
+  "guid": "note",
+   "specs": [0,0,0]
+   ,
+   "lines": ["FakeNoise NT-Pan ch_1 ch_2","01 InputA_1   02 InputB_1 ","03 InputA_2   04 InputB_2 ","05 InputAuxL  06 InputAuxR ","07 Aux Level  08 ----","09 XFade_1    10 Pan_1 ","11 XFade_2    12 Pan_2 "]
+   ,
+   "name": "NT-Pan                 ",
+   "parameters": [0,0,0,0,0,0,0]
+   ,
+   "ui": {
+   "page": 0,
+    "items": [2]
+    ,
+    "display": "params"}
+   }
+  ,{
+  "guid": "xfad",
+   "specs": [0,0,0]
+   ,
+   "name": "X-Fade 1               ",
+   "parameters": [1,2,13,1,1,9,500,1]
+   ,
+   "ui": {
+   "page": 0,
+    "items": [0,1]
+    ,
+    "display": "gui"}
+   }
+  ,{
+  "guid": "xfad",
+   "specs": [0,0,0]
+   ,
+   "name": "X-Fade 2               ",
+   "parameters": [3,4,14,1,1,11,500,1]
+   ,
+   "ui": {
+   "page": 1,
+    "items": [0,5]
+    ,
+    "display": "params"}
+   }
+  ,{
+  "guid": "mix2",
+   "specs": [3,0,0]
+   ,
+   "name": "Sum                    ",
+   "parameters": [[13,14,0,1]
+    ,[]
+    ,[[[13,13,-60,{
+       "v": 0,
+        "cv": {
+        "input": 10,
+         "unipolar": 0,
+         "isGate": 0,
+         "volts": 5,
+         "delta": 200}
+        }
+       ,0,0]
+      ]
+     ,[[14,14,-60,{
+       "v": 0,
+        "cv": {
+        "input": 12,
+         "unipolar": 0,
+         "isGate": 0,
+         "volts": 5,
+         "delta": 200}
+        }
+       ,0,0]
+      ]
+     ,[[5,6,{
+       "v": 0,
+        "cv": {
+        "input": 7,
+         "unipolar": 0,
+         "isGate": 0,
+         "volts": 5,
+         "delta": 760}
+        }
+       ,0,0,0]
+      ]
+     ]
+    ]
+   ,
+   "ui": {
+   "page": 0,
+    "items": [3,0,0]
+    ,
+    "display": "gui"}
+   }
+  ,{
+  "guid": "satu",
+   "specs": [2,0,0]
+   ,
+   "name": "Sat/Limit              ",
+   "parameters": [[0,0,0]
+    ,[13,1]
+    ,[14,1]
+    ]
+   ,
+   "ui": {
+   "page": 0,
+    "items": [2,1]
+    ,
+    "display": "params"}
+   }
+  ]
+ ,
+ "ui": {
+ "currentSlot": 4,
+  "displayMode": "overview"}
+ }
