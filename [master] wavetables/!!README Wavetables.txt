@@ -1,4 +1,4 @@
-Wavetables that are used by the Wavetable VCO algorithm.
+Wavetables that are used by the Wavetable VCO algorithm amogst others.
 
 These go in 'wavetables' on the root of the MicroSD card. 
 Copy the contents of one of these packs (just the .wav files) into root/wavetables.
