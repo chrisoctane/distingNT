@@ -1,4 +1,6 @@
-terminal to Linux vm
+terminal 
+
+
 cd /..
 cd mnt/c/Users/cpsou/Documents/GitHub/distingNT/tools/three_pot
 make
