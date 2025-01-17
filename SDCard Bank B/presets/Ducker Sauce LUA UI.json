@@ -1,0 +1,213 @@
+{
+"kind": "disting NT preset",
+ "version": 1,
+ "author": "Octane               ",
+ "name": "Ducker Sauce        ",
+ "slots": [{
+  "guid": "note",
+   "specs": [0,0,0]
+   ,
+   "lines": [
+"DUCKER SAUCE                   ",
+ "01 Mono_In1      02 Mono_In2  ",
+ "3&4 Stereo_LR    09 Sdchn_In  ",
+ "10 Attack        11 Decay     ",
+ "12 Threshold                  ",
+"Outputs                        ",
+ "1&2_Main 03_Input1 04_EnvOut  "]
+   ,
+   "name": "Notes                  ",
+   "parameters": [0,0,0,0,0,0,0]
+   ,
+   "ui": {
+   "page": 0,
+    "items": [0]
+    ,
+    "display": "gui"}
+   }
+  ,{
+  "guid": "mix1",
+   "specs": [2,0,0]
+   ,
+   "name": "Mixer Mono             ",
+   "parameters": [[15,28,0,0]
+    ,[]
+    ,[[[1,0,0,0]
+      ]
+     ,[[0,0,0,0]
+      ]
+     ]
+    ]
+   ,
+   "ui": {
+   "page": 0,
+    "items": [1,0,0]
+    ,
+    "display": "params"}
+   }
+  ,{
+  "guid": "eqpa",
+   "specs": [1,1,0]
+   ,
+   "name": "EQ Parametric          ",
+   "parameters": [[0]
+    ,[[[9,1,21,1]
+      ,[1,2,13958,0,-9]
+      ]
+     ]
+    ]
+   ,
+   "ui": {
+   "page": 1,
+    "items": [0,0,6]
+    ,
+    "display": "gui"}
+   }
+  ,{
+  "guid": "slew",
+   "specs": [1,0,0]
+   ,
+   "name": "Trbo Encabulator       ",
+   "parameters": [[0,{
+     "v": 17,
+      "cv": {
+      "input": 10,
+       "unipolar": 1,
+       "isGate": 0,
+       "volts": 5,
+       "delta": 1000}
+      }
+     ,{
+     "v": 0,
+      "cv": {
+      "input": 11,
+       "unipolar": 1,
+       "isGate": 0,
+       "volts": 5,
+       "delta": 1000}
+      }
+     ]
+    ,[0,3,1,0,21,21,1]
+    ]
+   ,
+   "ui": {
+   "page": 1,
+    "items": [2,4]
+    ,
+    "display": "params"}
+   }
+  ,{
+  "guid": "mix2",
+   "specs": [1,0,0]
+   ,
+   "name": "Ratio Input 12         ",
+   "parameters": [[22,16,0,1]
+    ,[]
+    ,[[[21,0,{
+       "v": 60,
+        "cv": {
+        "input": 12,
+         "unipolar": 1,
+         "isGate": 0,
+         "volts": 5,
+         "delta": -760}
+        }
+       ,0,0,0]
+      ]
+     ]
+    ]
+   ,
+   "ui": {
+   "page": 1,
+    "items": [1,0,0]
+    ,
+    "display": "gui"}
+   }
+  ,{
+  "guid": "attn",
+   "specs": [1,0,0]
+   ,
+   "name": "Attenuverter           ",
+   "parameters": [[0]
+    ,[16,1,-1500,0,0,0,0,16,1]
+    ]
+   ,
+   "ui": {
+   "page": 0,
+    "items": [0,1]
+    ,
+    "display": "params"}
+   }
+  ,{
+  "guid": "mix2",
+   "specs": [4,0,0]
+   ,
+   "name": "Mono 1&2 Stro 3&4      ",
+   "parameters": [[13,14,0,0]
+    ,[]
+    ,[[[1,0,{
+       "v": -30,
+        "cv": {
+        "input": 22,
+         "unipolar": 1,
+         "isGate": 0,
+         "volts": 5,
+         "delta": -760}
+        }
+       ,0,0,0]
+      ]
+     ,[[2,0,{
+       "v": -30,
+        "cv": {
+        "input": 22,
+         "unipolar": 1,
+         "isGate": 0,
+         "volts": 5,
+         "delta": -760}
+        }
+       ,0,0,0]
+      ]
+     ,[[3,4,{
+       "v": -30,
+        "cv": {
+        "input": 22,
+         "unipolar": 1,
+         "isGate": 0,
+         "volts": 5,
+         "delta": -760}
+        }
+       ,0,0,0]
+      ]
+     ,[[0,0,-700,0,0,0]
+      ]
+     ]
+    ]
+   ,
+   "ui": {
+   "page": 4,
+    "items": [0,0,2]
+    ,
+    "display": "gui"}
+   }
+  ,{
+  "guid": "satu",
+   "specs": [2,0,0]
+   ,
+   "name": "Saturation             ",
+   "parameters": [[0,0,0]
+    ,[13,1]
+    ,[14,1]
+    ]
+   ,
+   "ui": {
+   "page": 0,
+    "items": [2,1]
+    ,
+    "display": "params"}
+   }
+  ]
+ ,
+ "ui": {
+ "currentSlot": 7,
+  "displayMode": "overview"}
+ }

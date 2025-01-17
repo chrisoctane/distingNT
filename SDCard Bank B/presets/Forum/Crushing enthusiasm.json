@@ -1,0 +1,242 @@
+{
+"kind": "disting NT preset",
+ "version": 1,
+ "author": "Anonymous            ",
+ "name": "Crushing enthusiasm ",
+ "slots": [
+ {
+  "guid": "clck",
+   "specs": [
+   1,
+    0]
+   ,
+   "name": "Clock                  ",
+   "parameters": [
+   [
+    0,
+     786,
+     1,
+     4,
+     2,
+     1,
+     2,
+     0,
+     0,
+     0]
+    ,
+    [
+    1,
+     21,
+     1,
+     0,
+     9,
+     0,
+     50,
+     1,
+     0,
+     10]
+    ]
+   }
+  ,
+  {
+  "guid": "eucp",
+   "specs": [
+   1,
+    0]
+   ,
+   "name": "Euclidean patterns     ",
+   "parameters": [
+   [
+    21,
+     0]
+    ,
+    [
+    22,
+     0,
+     1,
+     16,
+     11,
+     2,
+     0,
+     0,
+     10,
+     50]
+    ]
+   }
+  ,
+  {
+  "guid": "srra",
+   "specs": [
+   0,
+    0]
+   ,
+   "name": "Shift Register Random  ",
+   "parameters": [
+   22,
+    0,
+    23,
+    0,
+    10,
+    0,
+    32,
+    26,
+    0,
+    0,
+    0,
+    10,
+    50,
+    0,
+    0]
+   }
+  ,
+  {
+  "guid": "quan",
+   "specs": [
+   1,
+    0]
+   ,
+   "name": "Quantizer              ",
+   "parameters": [
+   [
+    0,
+     0,
+     0,
+     1,
+     6,
+     3,
+     0,
+     0,
+     2,
+     0,
+     0,
+     -1,
+     0,
+     48,
+     13081,
+     1]
+    ,
+    [
+    23,
+     0,
+     24,
+     25,
+     0]
+    ]
+   }
+  ,
+  {
+  "guid": "resn",
+   "specs": [
+   0,
+    0]
+   ,
+   "name": "Resonator              ",
+   "parameters": [
+   6,
+    2,
+    4,
+    0,
+    0,
+    10,
+    0,
+    20,
+    25,
+    0,
+    1,
+    0,
+    25,
+    24,
+    0,
+    1,
+    0,
+    0,
+    2,
+    3,
+    13,
+    14,
+    0,
+    -40,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0]
+   }
+  ,
+  {
+  "guid": "satu",
+   "specs": [
+   2,
+    0]
+   ,
+   "name": "Saturation             ",
+   "parameters": [
+   [
+    0,
+     3,
+     6]
+    ,
+    [
+    13,
+     1]
+    ,
+    [
+    14,
+     1]
+    ]
+   }
+  ,
+  {
+  "guid": "dels",
+   "specs": [
+   3,
+    0]
+   ,
+   "name": "Delay (Stereo)         ",
+   "parameters": [
+   13,
+    14,
+    13,
+    14,
+    1,
+    2,
+    100,
+    -5,
+    404,
+    77,
+    -100,
+    12,
+    1,
+    0]
+   }
+  ,
+  {
+  "guid": "revb",
+   "specs": [
+   0,
+    0]
+   ,
+   "name": "Reverb                 ",
+   "parameters": [
+   13,
+    14,
+    13,
+    14,
+    1,
+    57,
+    1540,
+    2,
+    100,
+    33,
+    16,
+    50,
+    -12,
+    -6]
+   }
+  ]
+ ,
+ "ui": {
+ "currentSlot": 4,
+  "displayMode": "gui"}
+ }

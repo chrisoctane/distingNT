@@ -1,0 +1,247 @@
+{
+"kind": "disting NT preset",
+ "version": 1,
+ "name": "Bored of Canada     ",
+ "slots": [
+ {
+  "guid": "lfo ",
+   "specs": [
+   2,
+    0]
+   ,
+   "name": "LFO                    ",
+   "parameters": [
+   [
+    1]
+    ,
+    [
+    21,
+     0,
+     1,
+     3098,
+     0,
+     20,
+     0,
+     0,
+     0,
+     15,
+     0,
+     0,
+     0,
+     0]
+    ,
+    [
+    22,
+     0,
+     1,
+     3912,
+     1,
+     0,
+     60,
+     40,
+     0,
+     15,
+     0,
+     0,
+     0,
+     0]
+    ]
+   }
+  ,
+  {
+  "guid": "vcot",
+   "specs": [
+   0,
+    0]
+   ,
+   "wavetable": "tw-organ-cathedral",
+   "name": "VCO - wavetable        ",
+   "parameters": [
+   2,
+    0,
+    13,
+    0,
+    256,
+    {
+    "v": 753,
+     "cv": {
+     "input": 22,
+      "unipolar": 0,
+      "isGate": 0,
+      "volts": 5,
+      "delta": 2000}
+     }
+    ,
+    -1,
+    0,
+    {
+    "v": 1,
+     "cv": {
+     "input": 22,
+      "unipolar": 0,
+      "isGate": 0,
+      "volts": 5,
+      "delta": 200}
+     }
+    ,
+    600,
+    0]
+   }
+  ,
+  {
+  "guid": "env2",
+   "specs": [
+   1,
+    0]
+   ,
+   "name": "Envelope (AR/AD)       ",
+   "parameters": [
+   [
+    0,
+     2,
+     544,
+     917,
+     1023,
+     100,
+     128]
+    ,
+    [
+    1,
+     1,
+     13,
+     0,
+     1000,
+     0]
+    ]
+   }
+  ,
+  {
+  "guid": "vcam",
+   "specs": [
+   2,
+    0]
+   ,
+   "name": "VCA/Multiplier         ",
+   "parameters": [
+   [
+    13,
+     0,
+     12]
+    ,
+    [
+    13,
+     13,
+     1]
+    ,
+    [
+    14,
+     14,
+     1]
+    ]
+   }
+  ,
+  {
+  "guid": "fsvf",
+   "specs": [
+   0,
+    0]
+   ,
+   "name": "VCF (State Variable)   ",
+   "parameters": [
+   13,
+    14,
+    0,
+    13,
+    0,
+    14,
+    0,
+    0,
+    0,
+    0,
+    0,
+    154,
+    {
+    "v": 498,
+     "cv": {
+     "input": 21,
+      "unipolar": 0,
+      "isGate": 0,
+      "volts": 5,
+      "delta": 12000}
+     }
+    ,
+    26,
+    1,
+    0,
+    0,
+    0,
+    0]
+   }
+  ,
+  {
+  "guid": "delt",
+   "specs": [
+   1,
+    1]
+   ,
+   "name": "Delay (Tape)           ",
+   "parameters": [
+   13,
+    14,
+    13,
+    14,
+    1,
+    0,
+    1,
+    40,
+    60,
+    175,
+    0]
+   }
+  ,
+  {
+  "guid": "delt",
+   "specs": [
+   2,
+    1]
+   ,
+   "name": "Delay (Tape)           ",
+   "parameters": [
+   13,
+    14,
+    13,
+    14,
+    1,
+    0,
+    1,
+    33,
+    65,
+    250,
+    0]
+   }
+  ,
+  {
+  "guid": "revb",
+   "specs": [
+   0,
+    0]
+   ,
+   "name": "Reverb                 ",
+   "parameters": [
+   13,
+    14,
+    13,
+    14,
+    0,
+    100,
+    7500,
+    0,
+    8,
+    35,
+    5,
+    80,
+    -12,
+    -6]
+   }
+  ]
+ }

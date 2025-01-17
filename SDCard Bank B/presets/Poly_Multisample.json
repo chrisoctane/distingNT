@@ -1,0 +1,46 @@
+{
+"kind": "disting NT preset",
+ "version": 1,
+ "author": "Octane               ",
+ "name": "Poly_Multisample     ",
+ "slots": [{
+  "guid": "pyms",
+   "specs": [1,8,0]
+   ,
+   "timbres": [{
+    "folder": "BoC_Apart"}
+    ]
+   ,
+   "name": "Poly Multisample       ",
+   "parameters": [[2,0,0,0,-1,0,48,13081,0,0]
+    ,[0,0,1,13,14,0,0,1,1,0,0,60,100,77,100,0,0,0,0,0,0,1,1,1,1,1,1,1,2,0,0,1,1,0,0,1,0,3,0,0,1,0,0,0,0]
+    ]
+   ,
+   "ui": {
+   "page": 2,
+    "items": [0,0,0,0,0,0]
+    ,
+    "display": "params"}
+   }
+  ,{
+  "guid": "satu",
+   "specs": [2,0,0]
+   ,
+   "name": "Saturation             ",
+   "parameters": [[0,0,0]
+    ,[13,1]
+    ,[14,1]
+    ]
+   ,
+   "ui": {
+   "page": 0,
+    "items": [1,1]
+    ,
+    "display": "params"}
+   }
+  ]
+ ,
+ "ui": {
+ "currentSlot": 0,
+  "displayMode": "algorithm"}
+ }
