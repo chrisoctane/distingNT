@@ -1,0 +1,51 @@
+
+● You've made a fancy effect with SpinCAD or found some .spn files to use in the Disting's three_pot algorithm. 
+
+First, make a text file with the same name as the effect. eg:
+
+my_lovely_reverb.spn
+my_lovely_reverb.txt
+
+Any spaces in the filename or dodgy characters will cause conversion to fail with a parsing error. 
+
+The text file is what the Disting uses to display info on-screen. See 'spn textfile format.txt' for proper formatting.  
+
+
+
+● WSL: Windows Subsystem for Linux
+To use the makefile commands that convert .spn files to .3pot on Wndows 11, you'll need WSL and some tools.
+
+
+● Right-click the desktop and select, ‘Open in Terminal’. Type:
+
+wsl --install
+
+
+● After that, a new terminal window will have Ubuntu in the dropdown menu or you can find Ubuntu in your start menu.
+Select Ubuntu, complete
+user/password, then type:
+
+sudo apt update
+sudo apt install gcc-arm-none-eabi
+sudo apt update
+sudo apt install build-essential
+
+
+● That’s the VM and requisite tools installed. Now the commands for makefile in Ubuntu:
+
+cd ../..
+cd mnt/c/Users/*USER*/Documents/GitHub/distingNT/tools/three_pot
+
+(*USER*: This should be your user account folder name)
+
+
+● Drop *.spn and their corresponding *.txt files in the ‘spn’ folder, then in terminal, type:
+
+make
+
+
+● The make command runs the makefile script. *.3pot files are built and sent to the ‘3pot’ folder.    
+
+
+● Congratulations, You Made It!
+

@@ -1,0 +1,26 @@
+preset name
+pot0
+pot1
+pot2
+\n
+title titletitle title \n
+max length - column 42, lines 10, \n
+much more stuff, plenty of stuff then \n
+a bit more can fit before the last and \n
+final info line which is number 10.
+
+=========================================
+The above shows the layout of a typical text file that should accompany any .spn file before it is converted to a .3pot. 
+Useful because many .spn files from the wild are either unmarked or incorrectly marked when it comes to controlling effects programs. 
+
+
+preset name	shows in center of display
+pot0		left pot label
+pot1		middle pot label
+pot2		right pot label
+
+
+"\n" makes an 'Enter Key' function (new line).
+
+Disting NT displays about 45 characters before text wraps around to the next line. I tend to max around 40-42 including "\n".
+There are 10 viewable lines.
